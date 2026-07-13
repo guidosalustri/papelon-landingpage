@@ -22,13 +22,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download and Unzip Theme
+      - name: Clone Theme
         run: |
-          mkdir -p themes/re-terminal
-          curl -L https://github.com/mirus-ua/hugo-theme-re-terminal/archive/refs/heads/main.zip -o theme.zip
-          unzip theme.zip
-          mv hugo-theme-re-terminal-main/* themes/re-terminal/
-          rm -rf theme.zip hugo-theme-re-terminal-main
+          mkdir -p themes
+          git clone --depth=1 https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
 
       - name: Setup Pages
         id: pages
