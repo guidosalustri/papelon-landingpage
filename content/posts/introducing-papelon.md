@@ -5,7 +5,7 @@ tags: ["board games", "gotland"]
 ---
 
 
-![A screenshot of the Paper theme]( /images/papelon-logo.png )
+![A screenshot of the Paper theme]( /static/images/papelon-logo.png )
 
 The first light theme by community member trviph
 
