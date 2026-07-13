@@ -6,6 +6,7 @@ theme = 're-terminal'
 [params]
   themeColor = 'paper'
   contentTypeName = 'posts'
+  showLanguageSelector = true
 
 [languages]
   [languages.en]
