@@ -1,4 +1,4 @@
-baseURL = 'https://guidosalustri.github.io/papelonstudio-landingpage/'
+baseURL = 'https://guidosalustri.github.io/papelon-landingpage/'
 languageCode = 'en-us'
 title = 'Papelon Studio'
 theme = 're-terminal'
