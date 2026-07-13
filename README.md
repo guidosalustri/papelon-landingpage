@@ -1,3 +1,3 @@
-### Papelon Studio
+# Papelon Studio
 
-# landing page
+### KickStarter Landing Page
