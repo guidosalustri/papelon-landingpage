@@ -2,6 +2,7 @@ baseURL = 'https://guidosalustri.github.io/papelon-landingpage/'
 languageCode = 'en-us'
 title = 'Papelon Studio'
 theme = 're-terminal'
+canonifyURLs = true
 
 [params]
   themeColor = 'paper'
