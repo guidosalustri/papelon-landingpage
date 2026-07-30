@@ -108,7 +108,7 @@ title: "Welcome to Papelon"
   </div>
 </div>
 
-<img src="/images/kickstarter-logo.png" style="
+<img src="/images/Kickstarter-logo.png" style="
         max-width: 40%; 
         height: auto; 
         max-height: 360px; 
