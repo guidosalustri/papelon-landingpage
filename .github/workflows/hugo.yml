@@ -22,11 +22,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Clone Theme
-        run: |
-          mkdir -p themes
-          git clone --depth=1 https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
