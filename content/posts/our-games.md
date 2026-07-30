@@ -49,7 +49,7 @@ For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd
 ### Hamla
 <div class="games-container">
   <div class="game-box game-yellow" style="flex: 0 0 56%; max-width: 56%;" >
-    <img src="/images/hamla_thumbnail.png" style="
+    <img src="/images/Hamla_thumbnail.png" style="
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
