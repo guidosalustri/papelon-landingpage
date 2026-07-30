@@ -1,0 +1,19 @@
+<header class="header">
+  <span class="header__inner">
+    <span class="header__logo">
+      {{ partial "logo.html" . }}
+    </span>
+
+    
+    {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}
+      <span class="header__right"></span> 
+        {{ partial "language-menu.html" . }} 
+      </span>
+    {{ end }}
+
+    {{ if len $.Site.Menus }}
+        {{ partial "mobile-menu.html" . }}
+        {{ partial "menu.html" . }}
+    {{ end }}
+  </span>
+</header>

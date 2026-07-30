@@ -1,0 +1,77 @@
+baseURL = 'https://guidosalustri.github.io/papelon-landingpage/'
+languageCode = 'en-us'
+defaultContentLanguage = 'en'
+title = 'Papelon Studio'
+theme = 're-terminal'
+canonifyURLs = true
+
+[params]
+  themeColor = 'paper'
+  contentTypeName = 'posts'
+  showLanguageSelector = true
+  readingTime = true
+  minuteReadingTime = "min"
+  # Tells the theme how many menu links to show explicitly before collapsing them
+  showMenuItems = 3
+
+# Global logo fallback config
+[params.logo]
+  logoText = 'Papelon Studio'
+  logoHomeLink = '/papelon-landingpage/'
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    title = 'Papelon Studio'
+    
+    [languages.en.params]
+      subtitle = 'A Retro Tabletop Space'
+      keywords = ''
+      copyright = ''
+      readMore = 'Read more'
+      readOtherPosts = 'Read other posts'
+      
+    # Language-specific logo override
+    [languages.en.params.logo]
+      logoText = 'Papelon Studio'
+      logoHomeLink = '/'
+
+    # --- THE SUBMENU BAR CONFIGURATION ---
+    [languages.en.menu]
+      # 1. This creates the primary parent dropdown button
+      #[[languages.en.menu.main]]
+      #  identifier = "submenus"
+      #  name = "Sub menus"
+      #  url = "#"
+      #  weight = 10
+
+      # 3. These sit normally on the menu bar next to the dropdown
+      #[[languages.en.menu.main]]
+      #  identifier = "about-sub"
+      #  name = "About Us"
+      #  url = "/posts/introducing-papelon/"
+      #  parent = "submenus"
+      #  weight = 20
+
+      #[[languages.en.menu.main]]
+      #  identifier = "games-sub"
+      #  name = "Our Games"
+      #  url = "/posts/our-games/"
+      #  parent = "submenus"
+      #  weight = 30
+      
+      [[languages.en.menu.main]]
+        name = "About Us"
+        url = "/posts/introducing-papelon/"
+        weight = 20
+      
+      [[languages.en.menu.main]]
+        name = "Our Games"
+        url = "/posts/our-games/"
+        weight = 30
+      
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
