@@ -1,0 +1,385 @@
+html {
+    scrollbar-gutter: auto !important;
+}
+
+/* Prevent the mobile 'Menu ' button from stretching full-width */
+@media screen and (max-width: 684px) {
+  .menu,
+  .menu__trigger {
+    width: fit-content !important;
+    max-width: fit-content !important;
+    display: inline-block !important;
+    margin-top: 4px !important;
+  }
+/* Hide language items and the separator line inside the mobile dropdown */
+  .menu__dropdown .menu__divider,
+  .menu__dropdown hr,
+  .menu__dropdown .language-selector,
+  .menu__dropdown [class*="lang"],
+  .menu__dropdown li:nth-child(n+3) {
+    display: none !important;
+  }
+
+}
+
+
+kbd {
+    background-color: var(--background, #1a1b20) !important;
+    border: 2px solid var(--theme-color, #f0a230) !important;
+    color: var(--color, #2b2b2b) !important;
+    border-radius: 3px;
+    box-shadow: 1px 3px 0 var(--theme-color, #f0a230);
+    font-family: inherit;
+    font-size: 0.85em;
+    padding: 2px 4px;
+    display: inline-block;
+    margin: 0 3px;
+    vertical-align: baseline;
+    position: relative;
+    top: -1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* --- RICH PASTEL PAPELON PALETTE --- */
+
+/* Rich Blue (P and N) */
+.kbd-blue { border-color: #5dade2 !important; box-shadow: 1px 3px 0 #5dade2 !important; }
+
+/* Rich Pink (A) */
+.kbd-pink { border-color: #ff70a6 !important; box-shadow: 1px 3px 0 #ff70a6 !important; }
+
+/* Rich Green (P) */
+.kbd-green { border-color: #77dd77 !important; box-shadow: 1px 3px 0 #77dd77 !important; }
+
+/* Rich Yellow (E) */
+.kbd-yellow { border-color: #f4d03f !important; box-shadow: 1px 3px 0 #f4d03f !important; }
+
+/* Rich Coral (L) */
+.kbd-red { border-color: #ff6f61 !important; box-shadow: 1px 3px 0 #ff6f61 !important; }
+
+/* Rich Purple (O) */
+.kbd-purple { border-color: #a78bfa !important; box-shadow: 1px 3px 0 #a78bfa !important; }
+
+
+/* The Giant KBD-Style Frame (Centered on the page) */
+.retro-single-form {
+    background-color: #fbf8ef !important; /* Matching warm cream background */
+    background-image: 
+        linear-gradient(to right, rgba(200, 160, 120, 0.25) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(200, 160, 120, 0.25) 1px, transparent 1px) !important;
+    background-size: 20px 20px !important; /* Size of grid squares */
+    border: 2px solid var(--theme-color, #2b2b2b) !important;
+    border-radius: 8px;
+    
+    /* This creates the tactile 3D "KBD key" depth effect */
+    box-shadow: 0 6px 0 var(--theme-color, #f0a230); 
+    
+    padding: 35px 25px;
+    max-width: 480px;
+    
+    /* Centering the entire container on your webpage */
+    margin: 50px auto; 
+    
+    /* Flexbox to center-align the fields inside */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 0px;
+}
+
+/* 1. New Header Text Above the Field */
+.retro-single-form .retro-form-title {
+    background-color: var(--background, #1a1b20) !important;
+    border: 2px solid var(--theme-color, #2b2b2b) !important;
+    color: var(--color, #2b2b2b) !important;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 var(--theme-color, #f0a230);
+    font-family: inherit;
+    font-size: 1.25em;
+    padding: 2px 6px;
+    display: inline-block;
+    margin: 0 3px 45px 3px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* The Email Input Field (Centered inside the container) */
+.retro-single-form input[type="email"] {
+    background-color: #fbf8ef;
+    /* CHANGED: Starts as orange */
+    border: 1px solid var(--theme-color, #f0a230) !important;
+    color: var(--color, #e2e4e5);
+    font-family: inherit;
+    font-size: 1.1rem;
+    padding: 14px;
+    width: 100%;
+    max-width: 360px; /* Restricts width so it aligns perfectly with the button */
+    box-sizing: border-box;
+    outline: none;
+    text-align: center; /* Centers the placeholder and user text for symmetry */
+}
+
+/* Input focus state (CHANGED: Turns black when clicked) */
+.retro-single-form input[type="email"]:focus {
+    border-color: var(--color, #2b2b2b) !important; 
+}
+
+/* Instantly hides placeholder text on click */
+.retro-single-form input[type="email"]:focus::placeholder {
+    color: #f0a230 !important;
+    opacity: 0.4;
+}
+
+/* The Submit Button (Thick theme-colored border, centered) */
+.retro-single-form .submit-btn {
+    /*background-color: transparent;*/
+    background-color: #fbf8ef;
+    border: 3px solid var(--theme-color, #f0a230);
+    color: var(--theme-color, #f0a230);
+    font-family: inherit;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 12px;
+    width: 100%;
+    max-width: 360px; /* Matches the input width perfectly */
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 0.15s ease-in-out;
+}
+
+/* Button Hover State */
+.retro-single-form .submit-btn:hover {
+    background-color: var(--theme-color, #f0a230);
+    color: var(--background, #1a1b20);
+}
+
+/* ==========================================================================
+   SIDE-BY-SIDE GAME LOGO BOXES & CONTAINERS
+   ========================================================================== */
+
+/* The wrapper that handles the side-by-side layout (Merged & Fixed) */
+.games-container {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;     /* Forces boxes and plus sign to align on vertical midpoint */
+    gap: 40px !important;               /* Equal spacing on both sides of the plus sign */
+    width: 100% !important;
+    max-width: 850px !important;
+    margin: 50px auto !important;
+    box-sizing: border-box !important;
+}
+
+/* Individual game boxes mimicking your form frame */
+.game-box {
+    background-color: var(--background, #1a1b20) !important;
+    border: 2px solid var(--theme-color, #2b2b2b) !important;
+    border-radius: 8px;
+    box-shadow: 0 6px 0 var(--theme-color, #f0a230); /* Identical 3D depth shadow */
+    
+    padding: 30px 20px;
+    flex: 1;                /* Forces both boxes to scale to equal widths */
+    max-width: 380px;       /* Keeps them a crisp size on wide viewports */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+/* Game Title badge styles matching your main form header style */
+.game-box .game-box-title {
+    background-color: var(--background, #1a1b20) !important;
+    border: 2px solid var(--theme-color, #2b2b2b) !important;
+    color: var(--color, #2b2b2b) !important;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 var(--theme-color, #f0a230);
+    font-family: inherit;
+    font-size: 1.1em;
+    padding: 2px 8px;
+    display: inline-block;
+    margin: 0 0 25px 0;     /* Space beneath title badge */
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Game Logo sizing adjustments */
+.game-box .game-logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 180px;      /* <--- ADJUST LOGO HEIGHT LIMIT HERE */
+    object-fit: contain;
+    
+    /* Maintains pixel art sharpness for your icons */
+    image-rendering: auto !important;
+    image-rendering: crisp-edges !important;
+}
+
+/* Fixed Plus Sign Separator Block */
+.game-separator {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    
+    width: 60px !important;
+    height: 60px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+    
+    font-family: inherit !important;
+    font-weight: bold !important;
+    font-size: 5rem !important; 
+    color: var(--color, #2b2b2b) !important;
+    box-sizing: border-box !important;
+    
+    transform: translateY(-4px) !important; /* Visual vertical baseline balance adjustment */
+}
+
+/* ==========================================================================
+   GAME BOX COLOR MODIFIERS (Shadow Tints Only)
+   ========================================================================== */
+
+.game-green { box-shadow: 0 6px 0 #77dd77 !important; }
+.game-green .game-box-title { box-shadow: 0 3px 0 #77dd77 !important; }
+
+.game-purple { box-shadow: 0 6px 0 #a78bfa !important; }
+.game-purple .game-box-title { box-shadow: 0 3px 0 #a78bfa !important; }
+
+.game-blue { box-shadow: 0 6px 0 #5dade2 !important; }
+.game-blue .game-box-title { box-shadow: 0 3px 0 #5dade2 !important; }
+
+.game-pink { box-shadow: 0 6px 0 #ff70a6 !important; }
+.game-pink .game-box-title { box-shadow: 0 3px 0 #ff70a6 !important; }
+
+.game-yellow { box-shadow: 0 6px 0 #f4d03f !important; }
+.game-yellow .game-box-title { box-shadow: 0 3px 0 #f4d03f !important; }
+
+.game-red { box-shadow: 0 6px 0 #ff6f61 !important; }
+.game-red .game-box-title { box-shadow: 0 3px 0 #ff6f61 !important; }
+
+/* ==========================================================================
+   SEPARATOR COLOR MODIFIERS (Shadow Tints Only)
+   ========================================================================== */
+
+.separator-green { text-shadow: 1px 1px 0 #77dd77, 2px 2px 0 #77dd77, 3px 3px 0 #77dd77, 4px 4px 0 #77dd77 !important; }
+.separator-purple { text-shadow: 1px 1px 0 #a78bfa, 2px 2px 0 #a78bfa, 3px 3px 0 #a78bfa, 4px 4px 0 #a78bfa !important; }
+.separator-blue { text-shadow: 1px 1px 0 #5dade2, 2px 2px 0 #5dade2, 3px 3px 0 #5dade2, 4px 4px 0 #5dade2 !important; }
+.separator-pink { text-shadow: 1px 1px 0 #ff70a6, 2px 2px 0 #ff70a6, 3px 3px 0 #ff70a6, 4px 4px 0 #ff70a6 !important; }
+.separator-yellow { text-shadow: 1px 1px 0 #f4d03f, 2px 2px 0 #f4d03f, 3px 3px 0 #f4d03f, 4px 4px 0 #f4d03f !important; }
+.separator-red { text-shadow: 1px 1px 0 #ff6f61, 2px 2px 0 #ff6f61, 3px 3px 0 #ff6f61, 4px 4px 0 #ff6f61 !important; }
+
+.separator-rainbow {
+    text-shadow: 
+        1px 1px 0 #ff6f61,
+        2px 2px 0 #f4d03f,
+        3px 3px 0 #77dd77,
+        4px 4px 0 #5dade2,
+        5px 5px 0 #a78bfa,
+        6px 6px 0 #ff70a6 !important;
+}
+
+/* ==========================================================================
+   RESPONSIVE LAYOUT MECHANICS (Unified Mobile Block)
+   ========================================================================== */
+@media (max-width: 768px) {
+    .games-container {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 20px !important;
+    }
+    .game-box {
+        width: 100% !important;
+        max-width: 480px !important;
+    }
+    .game-separator {
+        transform: rotate(90deg) !important; /* Cascades down mobile display */
+        margin: 10px 0 !important;
+    }
+}
+
+/* ==========================================================================
+   RETRO TOP BANNER STYLING
+   ========================================================================== */
+
+/* The Upper Band Container */
+.retro-top-banner {
+    width: 100% !important;
+    height: 130px !important; 
+    position: relative !important; 
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    z-index: 9999 !important;
+    
+    /* The Background Engineering Grid Texture */
+    background-image: url("images/banner_gridpaper1.png") !important; 
+    background-repeat: repeat-x !important; 
+    background-position: center !important;
+    background-size: auto 130px !important; 
+    /* Bottom border and 3D shadow matching the theme form styles */
+    border-bottom: 2px solid #2b2b2b !important;
+    box-shadow: 0 4px 0 #f0a230 !important;
+}
+
+/* The Centered Logo Image */
+.retro-top-banner .banner-logo {
+    height: 240px !important;      /* Scaled down to fit within the 130px banner */
+    width: auto !important;        /* Maintains pixel-perfect proportions */
+    max-width: 100% !important;
+    display: block !important;
+    object-fit: contain !important;
+    margin: 0 auto !important;
+    transform: translateY(-3px) !important; /* Shifted down to overlap the bottom edge */
+    
+    /* Keeps pixel-art razor-sharp */
+    image-rendering: pixelated !important; 
+    image-rendering: crisp-edges !important;
+}
+
+
+
+/* ==========================================================================
+   RESIZE AND SCALE POST COVER IMAGES
+   ========================================================================== */
+.post-cover {
+    /* 1. Shrink the bounding box (and that thick accent border) */
+    max-width: 80% !important; 
+    /* 2. Keep the container perfectly centered on the page */
+    margin: 20px auto !important; 
+}
+
+.post-cover img {
+    /* 3. Make sure the actual image fills our new smaller box smoothly */
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
+
+/* 1. Reset any old side borders */
+body::before,
+body::after {
+  display: none !important;
+}
+
+/* 2. Turn the entire page background into graph paper */
+body {
+  background-color: #fbf8ef; /* Matching warm cream background */
+  background-image: 
+    linear-gradient(to right, rgba(200, 160, 120, 0.22) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(200, 160, 120, 0.22) 1px, transparent 1px);
+  background-size: 24px 24px; /* Size of grid squares */
+  background-attachment: fixed; /* Keeps the grid stationary as you scroll */
+}
+
+/* Keeps main content readable over the grid background */
+.container, .content {
+  background-color: #fbf8ef; /* Solid cream behind your main text box */
+  padding: 1rem;
+  /*border-radius: 10px;
+  border: 2px solid #f0a230; /* Crisp black border */
+}
