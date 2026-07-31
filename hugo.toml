@@ -3,7 +3,7 @@ languageCode = 'en-us'
 defaultContentLanguage = 'en'
 title = 'Papelon Studio'
 theme = 're-terminal'
-canonifyURLs = true
+canonifyURLs = false
 relativeURLs = false
 
 [params]
