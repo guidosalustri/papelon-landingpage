@@ -4,6 +4,7 @@ defaultContentLanguage = 'en'
 title = 'Papelon Studio'
 theme = 're-terminal'
 canonifyURLs = true
+relativeURLs = false
 
 [params]
   themeColor = 'paper'
