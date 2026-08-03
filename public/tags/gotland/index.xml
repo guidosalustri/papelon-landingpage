@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gotland on Papelon Studio</title>
-    <link>http://localhost:1313/papelon-landingpage/tags/gotland/</link>
+    <link>http://localhost:1313/tags/gotland/</link>
     <description>Recent content in Gotland on Papelon Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/papelon-landingpage/tags/gotland/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gotland/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing Papelon Studio.</title>
-      <link>http://localhost:1313/papelon-landingpage/posts/introducing-papelon/</link>
+      <link>http://localhost:1313/posts/introducing-papelon/</link>
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/papelon-landingpage/posts/introducing-papelon/</guid>
+      <guid>http://localhost:1313/posts/introducing-papelon/</guid>
       <description>&lt;!-- coverCaption: &#34;The first light theme by community member trviph&#34; --&gt;
 &lt;h3 id=&#34;about-us&#34;&gt;About Us&lt;/h3&gt;
 &lt;p&gt;We are a &lt;kbd class=&#34;kbd-green&#34;&gt;3-person&lt;/kbd&gt; board game studio based in the historic island town of &lt;kbd class=&#34;kbd-yellow&#34;&gt;Visby&lt;/kbd&gt;, Gotland (the very place where we learned to make games). We love collaborating with designers and artists, and above all, we want more people to &lt;kbd class=&#34;kbd-blue&#34;&gt;play&lt;/kbd&gt; and &lt;kbd class=&#34;kbd-red&#34;&gt;create&lt;/kbd&gt; games. And that’s why we think &lt;kbd class=&#34;kbd-pink&#34;&gt;print-and-play&lt;/kbd&gt; is so great!&lt;/p&gt;
@@ -31,7 +31,7 @@ You can enable it via config--&gt;
 &lt;!-- ROW 1: Framed Image Left | Plain Text Right --&gt;
 &lt;div class=&#34;games-container&#34;&gt;
   &lt;div class=&#34;game-box game-purple&#34; style=&#34;flex: 0 0 60%; max-width: 60%;&#34; &gt;
-        &lt;img src=&#34;http://localhost:1313/papelon-landingpage/images/14.jpg&#34; style=&#34;
+        &lt;img src=&#34;http://localhost:1313/images/14.jpg&#34; style=&#34;
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
@@ -51,7 +51,7 @@ You can enable it via config--&gt;
     &lt;p&gt;&lt;kbd class=&#34;kbd-yellow&#34;&gt;Print-and-play&lt;/kbd&gt; makes games &lt;kbd class=&#34;kbd-yellow&#34;&gt;affordable&lt;/kbd&gt;, instantly &lt;kbd class=&#34;kbd-yellow&#34;&gt;accessible&lt;/kbd&gt; to everyone, and uniquely personal. You don’t just play the game, you spend time &lt;kbd class=&#34;kbd-yellow&#34;&gt;crafting&lt;/kbd&gt; it, too. And as we all know: &#34;It is the time you spend on your game that makes your game so important.&#34; &lt;kbd class=&#34;kbd-yellow&#34;&gt;Go, go, PnP!&lt;/kbd&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&#34;game-box game-yellow&#34; style=&#34;flex: 0 0 55%; max-width: 55%;&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/papelon-landingpage/images/41.jpg&#34; style=&#34;
+        &lt;img src=&#34;http://localhost:1313/images/41.jpg&#34; style=&#34;
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
@@ -63,7 +63,7 @@ You can enable it via config--&gt;
 &lt;!-- ROW 3: Framed Image Left | Plain Text Right --&gt;
 &lt;div class=&#34;games-container&#34;&gt;
   &lt;div class=&#34;game-box game-pink&#34; style=&#34;flex: 0 0 55%; max-width: 55%;&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/papelon-landingpage/images/36.jpg&#34; style=&#34;
+        &lt;img src=&#34;http://localhost:1313/images/36.jpg&#34; style=&#34;
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 

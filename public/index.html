@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.164.0"><script src="/papelon-landingpage/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=papelon-landingpage/livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.164.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
     <title>Papelon Studio</title>
   
@@ -12,7 +12,7 @@
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="http://localhost:1313/papelon-landingpage/" />
+<link rel="canonical" href="http://localhost:1313/" />
 
 
 
@@ -25,16 +25,16 @@
   
   
   
-  <link rel="stylesheet" href="http://localhost:1313/papelon-landingpage/styles.css">
+  <link rel="stylesheet" href="http://localhost:1313/styles.css">
 
 
 
-<link rel="stylesheet" href="http://localhost:1313/papelon-landingpage/style.css">
+<link rel="stylesheet" href="http://localhost:1313/style.css">
 
 
 
-  <link rel="shortcut icon" href="http://localhost:1313/papelon-landingpage/img/theme-colors/paper.png">
-  <link rel="apple-touch-icon" href="http://localhost:1313/papelon-landingpage/img/theme-colors/paper.png">
+  <link rel="shortcut icon" href="http://localhost:1313/img/theme-colors/paper.png">
+  <link rel="apple-touch-icon" href="http://localhost:1313/img/theme-colors/paper.png">
 
 
 
@@ -46,11 +46,11 @@
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Papelon Studio">
 <meta property="og:description" content="A Retro Tabletop Space" />
-<meta property="og:url" content="http://localhost:1313/papelon-landingpage/" />
+<meta property="og:url" content="http://localhost:1313/" />
 <meta property="og:site_name" content="Papelon Studio" />
 
   
-    <meta property="og:image" content="http://localhost:1313/papelon-landingpage/img/favicon/paper.png">
+    <meta property="og:image" content="http://localhost:1313/img/favicon/paper.png">
   
 
 <meta property="og:image:width" content="1200">
@@ -60,7 +60,7 @@
 
 
 
-  <link href="http://localhost:1313/papelon-landingpage/index.xml" rel="alternate" type="application/rss+xml" title="Papelon Studio" />
+  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Papelon Studio" />
 
 
 
@@ -79,7 +79,7 @@
 
 <div class="retro-top-banner">
   
-  <img src="http://localhost:1313/papelon-landingpage/images/papelon_nobglogo.png" style="
+  <img src="/images/papelon_nobglogo.png" style="
         max-width: 100%; 
         height: auto; 
         max-height: 240px; 
@@ -95,7 +95,7 @@
   <header class="header">
   <span class="header__inner">
     <span class="header__logo">
-      <a href="http://localhost:1313/papelon-landingpage/">
+      <a href="/">
   <div class="logo">
     Papelon Studio
   </div>
@@ -111,7 +111,7 @@
   <li>
     <ul class="menu__dropdown">
       
-        <li><a href="http://localhost:1313/papelon-landingpage/">English</a></li>
+        <li><a href="http://localhost:1313/">English</a></li>
       
     </ul>
   </li>
@@ -127,18 +127,18 @@
     <ul class="menu__dropdown">
       
         
-          <li><a href="http://localhost:1313/papelon-landingpage/posts/introducing-papelon/">About Us</a></li>
+          <li><a href="/posts/introducing-papelon/">About Us</a></li>
         
       
         
-          <li><a href="http://localhost:1313/papelon-landingpage/posts/our-games/">Our Games</a></li>
+          <li><a href="/posts/our-games/">Our Games</a></li>
         
       
       
         <hr />
         
           <li>
-            <a href="http://localhost:1313/papelon-landingpage/">English</a>
+            <a href="http://localhost:1313/">English</a>
           </li>
         
       
@@ -152,11 +152,11 @@
       
       
         
-          <li><a href="http://localhost:1313/papelon-landingpage/posts/introducing-papelon/" >About Us</a></li>
+          <li><a href="/posts/introducing-papelon/" >About Us</a></li>
         
       
         
-          <li><a href="http://localhost:1313/papelon-landingpage/posts/our-games/" >Our Games</a></li>
+          <li><a href="/posts/our-games/" >Our Games</a></li>
         
       
       
@@ -241,30 +241,48 @@
   });
 </script>
 <!-- Container for side-by-side game boxes -->
-<div class="games-container">
+<div class="games-container" style="display: flex; align-items: center; justify-content: center;">
   <!-- Left Game Box -->
-  <div class="game-box game-yellow" style="flex: 0 0 35%; max-width: 35%;">
-        <img src="http://localhost:1313/papelon-landingpage/images/hamla-logo.png" style="
-        max-width: 80%; 
-        height: auto; 
-        max-height: 360px; 
-        object-fit: contain; 
-        image-rendering: smooth !important;
-      "/>
+  <div class="game-box game-yellow" style="
+    flex: 0 0 35%; 
+    max-width: 35%; 
+    height: 220px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding: 15px;
+  ">
+    <img src="/images/hamla-logo.png" style="
+      max-width: 85%; 
+      max-height: 65%; 
+      width: auto; 
+      height: auto; 
+      object-fit: contain; 
+      image-rendering: smooth !important;
+    "/>
   </div>
-  <div class="game-separator separator-green">+</div>
+  <div class="game-separator separator-green" style="margin: 0 15px;">+</div>
   <!-- Right Game Box -->
-  <div class="game-box game-blue" style="flex: 0 0 35%; max-width: 35%;">
-        <img src="http://localhost:1313/papelon-landingpage/images/essom-logo.png" style="
-        max-width: 80%; 
-        height: auto; 
-        max-height: 360px; 
-        object-fit: contain; 
-        image-rendering: smooth !important;
-      "/>
+  <div class="game-box game-blue" style="
+    flex: 0 0 35%; 
+    max-width: 35%; 
+    height: 220px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding: 15px;
+  ">
+    <img src="/images/essom-logo.png" style="
+      max-width: 85%; 
+      max-height: 95%; 
+      width: auto; 
+      height: auto; 
+      object-fit: contain; 
+      image-rendering: smooth !important;
+    "/>
   </div>
 </div>
-<p><img src="http://localhost:1313/papelon-landingpage/images/Kickstarter-logo.png" style="
+<p><img src="/images/Kickstarter-logo.png" style="
 max-width: 40%; 
 height: auto; 
 max-height: 360px; 
@@ -289,7 +307,7 @@ margin: -45px auto !important;
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="http://localhost:1313/papelon-landingpage/posts/introducing-papelon/">Introducing Papelon Studio.</a>
+          <a href="http://localhost:1313/posts/introducing-papelon/">Introducing Papelon Studio.</a>
         </h1>
 
         <div class="post-meta"><time class="post-date">2026-07-13</time>
@@ -300,18 +318,18 @@ margin: -45px auto !important;
         
           <span class="post-tags">
             
-            #<a href="http://localhost:1313/papelon-landingpage/tags/board-games/">board games</a>&nbsp;
+            #<a href="http://localhost:1313/tags/board-games/">board games</a>&nbsp;
             
-            #<a href="http://localhost:1313/papelon-landingpage/tags/gotland/">gotland</a>&nbsp;
+            #<a href="http://localhost:1313/tags/gotland/">gotland</a>&nbsp;
             
-            #<a href="http://localhost:1313/papelon-landingpage/tags/printplay/">print&amp;play</a>&nbsp;
+            #<a href="http://localhost:1313/tags/printplay/">print&amp;play</a>&nbsp;
             
           </span>
         
 
         
     
-    <img src="http://localhost:1313/papelon-landingpage/images/5.jpg"
+    <img src="http://localhost:1313/images/5.jpg"
       class="post-cover"
       alt="Introducing Papelon Studio."
       title="Cover Image" />
@@ -333,14 +351,14 @@ You can enable it via config-->
 
         
           <div>
-            <a class="read-more button" href="http://localhost:1313/papelon-landingpage/posts/introducing-papelon/">Read more →</a>
+            <a class="read-more button" href="/posts/introducing-papelon/">Read more →</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h1 class="post-title">
-          <a href="http://localhost:1313/papelon-landingpage/posts/our-games/">Our Games.</a>
+          <a href="http://localhost:1313/posts/our-games/">Our Games.</a>
         </h1>
 
         <div class="post-meta"><time class="post-date">2026-07-13</time>
@@ -351,18 +369,18 @@ You can enable it via config-->
         
           <span class="post-tags">
             
-            #<a href="http://localhost:1313/papelon-landingpage/tags/board-games/">board games</a>&nbsp;
+            #<a href="http://localhost:1313/tags/board-games/">board games</a>&nbsp;
             
-            #<a href="http://localhost:1313/papelon-landingpage/tags/abstract/">abstract</a>&nbsp;
+            #<a href="http://localhost:1313/tags/abstract/">abstract</a>&nbsp;
             
-            #<a href="http://localhost:1313/papelon-landingpage/tags/cards/">cards</a>&nbsp;
+            #<a href="http://localhost:1313/tags/cards/">cards</a>&nbsp;
             
           </span>
         
 
         
     
-    <img src="http://localhost:1313/papelon-landingpage/images/cover-ourgames.png"
+    <img src="http://localhost:1313/images/ourgames.jpg"
       class="post-cover"
       alt="Our Games."
       title="Cover Image" />
@@ -380,7 +398,7 @@ You can enable it via config-->
 
         
           <div>
-            <a class="read-more button" href="http://localhost:1313/papelon-landingpage/posts/our-games/">Read more →</a>
+            <a class="read-more button" href="/posts/our-games/">Read more →</a>
           </div>
         
       </article>
@@ -414,7 +432,7 @@ You can enable it via config-->
 
 
 
-<script type="text/javascript" src="http://localhost:1313/papelon-landingpage/bundle.min.js"></script>
+<script type="text/javascript" src="/bundle.min.js"></script>
 
 
 

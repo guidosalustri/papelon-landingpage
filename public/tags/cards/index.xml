@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cards on Papelon Studio</title>
-    <link>http://localhost:1313/papelon-landingpage/tags/cards/</link>
+    <link>http://localhost:1313/tags/cards/</link>
     <description>Recent content in Cards on Papelon Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/papelon-landingpage/tags/cards/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/cards/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Our Games.</title>
-      <link>http://localhost:1313/papelon-landingpage/posts/our-games/</link>
+      <link>http://localhost:1313/posts/our-games/</link>
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/papelon-landingpage/posts/our-games/</guid>
+      <guid>http://localhost:1313/posts/our-games/</guid>
       <description>&lt;h3 id=&#34;essom--hamla&#34;&gt;Essom + Hamla&lt;/h3&gt;
 &lt;p&gt;For our first kickstarter we feature two games: &lt;kbd class=&#34;kbd-blue&#34;&gt;Hamla&lt;/kbd&gt; and &lt;kbd&gt;Essom&lt;/kbd&gt;. Both games were made on Gotland, and they share the &lt;kbd class=&#34;kbd-pink&#34;&gt;award&lt;/kbd&gt; for Best Game Design at the Gotland Game Conference 2025. As the Designers put it: “We are &lt;kbd class=&#34;kbd-yellow&#34;&gt;friends&lt;/kbd&gt; that encouraged each other to present our games at the conference, so we see it as a very fitting ending to &lt;kbd class=&#34;kbd-red&#34;&gt;share&lt;/kbd&gt; the award”.&lt;/p&gt;
 &lt;p&gt;&lt;kbd class=&#34;kbd-purple&#34;&gt;Curious&lt;/kbd&gt; about the games?&lt;/p&gt;</description>
@@ -20,7 +20,7 @@
 &lt;p&gt;For our first kickstarter we feature two games: &lt;kbd class=&#34;kbd-blue&#34;&gt;Hamla&lt;/kbd&gt; and &lt;kbd&gt;Essom&lt;/kbd&gt;. Both games were made on Gotland, and they share the &lt;kbd class=&#34;kbd-pink&#34;&gt;award&lt;/kbd&gt; for Best Game Design at the Gotland Game Conference 2025. As the Designers put it: “We are &lt;kbd class=&#34;kbd-yellow&#34;&gt;friends&lt;/kbd&gt; that encouraged each other to present our games at the conference, so we see it as a very fitting ending to &lt;kbd class=&#34;kbd-red&#34;&gt;share&lt;/kbd&gt; the award”.&lt;/p&gt;
 &lt;p&gt;&lt;kbd class=&#34;kbd-purple&#34;&gt;Curious&lt;/kbd&gt; about the games?&lt;/p&gt;
 &lt;div class=&#34;game-box game-green &#34; style=&#34;flex: 0 0 80%; max-width: 80%; margin: 0 auto;&#34;&gt;
-    &lt;img src=&#34;http://localhost:1313/papelon-landingpage/images/cover-ourgames.png&#34; style=&#34;
+    &lt;img src=&#34;http://localhost:1313/images/cover-ourgames.png&#34; style=&#34;
         max-width: 96%; 
         height: auto; 
         max-height: 360px; 
@@ -38,7 +38,7 @@
     &lt;p&gt;Essom is an &lt;kbd class=&#34;kbd-yellow&#34;&gt;abstract&lt;/kbd&gt; game design by Guido Salustri, a game designer from Argentina. Essom combines &lt;kbd class=&#34;kbd-green&#34;&gt;hidden information&lt;/kbd&gt; with &lt;kbd class=&#34;kbd-red&#34;&gt;tactical&lt;/kbd&gt; depth, where players need to search for and retrieve &lt;kbd class=&#34;kbd-purple&#34;&gt;hidden tokens&lt;/kbd&gt;.&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&#34;game-box game-blue&#34; style=&#34;flex: 0 0 58%; max-width: 58%;&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/papelon-landingpage/images/essom1.png&#34; style=&#34;
+        &lt;img src=&#34;http://localhost:1313/images/essom1.png&#34; style=&#34;
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
@@ -51,7 +51,7 @@
 &lt;h3 id=&#34;hamla&#34;&gt;Hamla&lt;/h3&gt;
 &lt;div class=&#34;games-container&#34;&gt;
   &lt;div class=&#34;game-box game-yellow&#34; style=&#34;flex: 0 0 56%; max-width: 56%;&#34; &gt;
-    &lt;img src=&#34;http://localhost:1313/papelon-landingpage/images/Hamla_thumbnail.png&#34; style=&#34;
+    &lt;img src=&#34;http://localhost:1313/images/Hamla_thumbnail.png&#34; style=&#34;
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 

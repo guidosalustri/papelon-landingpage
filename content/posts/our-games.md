@@ -3,7 +3,7 @@ title: "Our Games."
 date: 2026-07-13
 readingTime: true
 tags: ["board games", "abstract", "cards"]
-cover: "images/cover-ourgames.png"
+cover: "images/ourgames.jpg"
 ---
 
 ### Essom + Hamla
@@ -29,11 +29,11 @@ For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd
 ### Essom
 <div class="games-container">
   <div style="flex: 1;">
-    <p><kbd class="kbd-blue" style="padding: 8px 16px;">Players: 2 | Age: 10+ | Time: 25´</kbd></p>
+    <p><kbd class="kbd-blue" style="padding: 8px 16px;">Players: 2 | Age: 10+ | Time: 25’</kbd></p>
     <h3>Summary.</h3>
     <p>Essom is an <kbd class="kbd-yellow">abstract</kbd> game design by Guido Salustri, a game designer from Argentina. Essom combines <kbd class="kbd-green">hidden information</kbd> with <kbd class="kbd-red">tactical</kbd> depth, where players need to search for and retrieve <kbd class="kbd-purple">hidden tokens</kbd>.</p>
   </div>
-  <div class="game-box game-blue" style="flex: 0 0 58%; max-width: 58%;">
+  <div class="game-box game-blue" style="flex: 0 0 57%; max-width: 57%;">
         <img src="/images/essom1.png" style="
         max-width: 100%; 
         height: auto; 
@@ -58,7 +58,7 @@ For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd
       "/>
   </div>
   <div style="flex: 1;">
-    <p><kbd class="kbd-yellow" style="padding: 8px 16px;">Players: 2-6 | Age: 8+ | Time: 15´</kbd></p>
+    <p><kbd class="kbd-yellow" style="padding: 8px 16px;">Players: 2-6 | Age: 8+ | Time: 15’</kbd></p>
     <h3>Summary.</h3>
     <p>Hamla is a <kbd class="kbd-blue">card</kbd> game design by Márton Bodrog, a game designer from Hungary. Coming from the world of Trutina, Hamla is a game of cunning, <kbd class="kbd-pink">bluffing</kbd> and a bit of luck, where you take the role of commanders preparing for <kbd>battle</kbd>.</p>
   </div>

@@ -81,31 +81,50 @@ title: "Welcome to Papelon"
 </script>
 
 <!-- Container for side-by-side game boxes -->
-<div class="games-container">
+<div class="games-container" style="display: flex; align-items: center; justify-content: center;">
 
   <!-- Left Game Box -->
-  <div class="game-box game-yellow" style="flex: 0 0 35%; max-width: 35%;">
-        <img src="/images/hamla-logo.png" style="
-        max-width: 80%; 
-        height: auto; 
-        max-height: 360px; 
-        object-fit: contain; 
-        image-rendering: smooth !important;
-      "/>
+  <div class="game-box game-yellow" style="
+    flex: 0 0 35%; 
+    max-width: 35%; 
+    height: 220px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding: 15px;
+  ">
+    <img src="/images/hamla-logo.png" style="
+      max-width: 85%; 
+      max-height: 65%; 
+      width: auto; 
+      height: auto; 
+      object-fit: contain; 
+      image-rendering: smooth !important;
+    "/>
   </div>
 
-  <div class="game-separator separator-green">+</div>
+  <div class="game-separator separator-green" style="margin: 0 15px;">+</div>
   
   <!-- Right Game Box -->
-  <div class="game-box game-blue" style="flex: 0 0 35%; max-width: 35%;">
-        <img src="/images/essom-logo.png" style="
-        max-width: 80%; 
-        height: auto; 
-        max-height: 360px; 
-        object-fit: contain; 
-        image-rendering: smooth !important;
-      "/>
+  <div class="game-box game-blue" style="
+    flex: 0 0 35%; 
+    max-width: 35%; 
+    height: 220px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding: 15px;
+  ">
+    <img src="/images/essom-logo.png" style="
+      max-width: 85%; 
+      max-height: 95%; 
+      width: auto; 
+      height: auto; 
+      object-fit: contain; 
+      image-rendering: smooth !important;
+    "/>
   </div>
+
 </div>
 
 <img src="/images/Kickstarter-logo.png" style="
