@@ -18,7 +18,7 @@ relativeURLs = false
   # --- ADDED FOR FAVICON & LINK PREVIEW ---
   # favicon = '/favicon.png'
   description = 'Our Kickstarter Landing Page'
-  images = ['/images/papelon_nobglogo.png']
+  images = ['https://papelonstudio.me/images/papelon_nobglogo.png']
 
 # Global logo fallback config
 [params.logo]
