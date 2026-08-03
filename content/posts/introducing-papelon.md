@@ -33,15 +33,15 @@ You can enable it via config-->
   </div>
   <div style="flex: 1;">
     <h2>A Rising Tide Lifts all Boats</h2>
-    <p>We want to <kbd class="kbd-purple">support</kbd> emerging, diverse <kbd class="kbd-purple">talent</kbd> joining the board game <kbd class="kbd-purple">industry</kbd>. Because it’s <kbd class="kbd-purple">algebraic:</kbd> more diverse game crafters lead to more diverse crafted games <kbd class="kbd-purple">;)</kbd></p>
+    <p>We want to <kbd class="kbd-purple">support</kbd> emerging, diverse <kbd class="kbd-purple">talent</kbd> joining the board game <kbd class="kbd-purple">industry</kbd>. It’s <kbd class="kbd-purple">simple:</kbd> more diverse game crafters lead to more diverse crafted games <kbd class="kbd-purple">;)</kbd></p>
   </div>
 </div>
 
 <!-- ROW 2: Plain Text Left | Framed Image Right (SWAPPED) -->
 <div class="games-container">
   <div style="flex: 1;">
-    <h2>The Hidden Power of Format</h2>
-    <p><kbd class="kbd-yellow">Print-and-play</kbd> makes games <kbd class="kbd-yellow">affordable</kbd>, instantly <kbd class="kbd-yellow">accessible</kbd> to everyone, and uniquely personal. You don’t just play the game, you spend time <kbd class="kbd-yellow">crafting</kbd> it, too. And as we all know: "It is the time you spend on your game that makes your game so important." <kbd class="kbd-yellow">Go, go, PnP!</kbd></p>
+    <h2>The Hidden Power of PnP</h2>
+    <p><kbd class="kbd-yellow">Print-and-play</kbd> makes games <kbd class="kbd-yellow">affordable</kbd>, instantly <kbd class="kbd-yellow">accessible</kbd> to everyone, and uniquely personal. You don’t just play the game, you spend time <kbd class="kbd-yellow">crafting</kbd> it, too. Think of it like IKEA: you get the pride of saying, 'I made this.' <kbd class="kbd-yellow">Go, go, PnP!</kbd></p>
   </div>
   <div class="game-box game-yellow" style="flex: 0 0 55%; max-width: 55%;">
         <img src="/images/41.jpg" style="
@@ -75,9 +75,9 @@ You can enable it via config-->
 ## The Team
 >We are <kbd>alumni</kbd> of the Game Design Department at Uppsala University, Campus Gotland. Our team:
 >
->-- <kbd class="kbd-purple">Majo 🦙 </kbd>: From Peru🦙, the only one that knows what she is doing.
+>-- <kbd class="kbd-purple">Majo 🦙 </kbd>: Peruvian game designer specializing in developing, editing and localizing board games.
 >
->-- <kbd class="kbd-blue">Guido 🧉 </kbd>: From Argentina🐦, Doesn’t really know how he got here.
+>-- <kbd class="kbd-blue">Guido 🧉 </kbd>: A Biologist from Argentina doing Game Dev.
 >
 >-- <kbd class="kbd-red">Joel 🦌</kbd>: From Sweden🫎, always late to meetings, but just to make everyone in the team feel at home.
 >
