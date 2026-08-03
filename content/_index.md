@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Papelon"
 ---
-# Welcome to the Papelon
+# Welcome to Papelon
 >Hello there! We are a bunch of <kbd class="kbd-yellow">game designers</kbd> from around the world sitting on top of a small limestone island in the middle of the <kbd class="kbd-red">Baltic Sea</kbd>. Together, we run a tiny <kbd class="kbd-blue">board game studio</kbd> that hopes to make the hobby more <kbd class="kbd-pink">accessible</kbd> for both players and designers.
 >
 >Join us for the launch of our first <kbd>Kickstarter</kbd> campaign! We are featuring two of <kbd class="kbd-purple">our games!</kbd> If you want to learn more about our studio or the games, you'll find more info below <kbd class="kbd-green">:D</kbd>
