@@ -28,7 +28,7 @@ relativeURLs = false
     [languages.en.params]
       subtitle = 'Our Kickstarter Landing Page'
       favicon = '/favicon.png'
-      images = ['https://papelonstudio.me/images/papelon_nobglogo.png']
+      images = ['/images/papelon_nobglogo.png']
       cover = 'images/papelon_nobglogo.png'
       keywords = ''
       copyright = ''
