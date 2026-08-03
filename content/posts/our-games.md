@@ -3,7 +3,7 @@ title: "Our Games."
 date: 2026-07-13
 readingTime: true
 tags: ["board games", "abstract", "cards"]
-cover: "images/covergames.HEIC"
+cover: "images/ourgames.jpg"
 ---
 
 ### Essom + Hamla
