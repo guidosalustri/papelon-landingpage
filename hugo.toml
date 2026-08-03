@@ -15,6 +15,11 @@ relativeURLs = false
   # Tells the theme how many menu links to show explicitly before collapsing them
   showMenuItems = 3
 
+  # --- ADDED FOR FAVICON & LINK PREVIEW ---
+  #favicon = '/favicon.png'
+  description = 'Our Kickstarter Landing Page'
+  images = ['/images/papelon_nobglogo.png']
+
 # Global logo fallback config
 [params.logo]
   logoText = 'Papelon Studio'
