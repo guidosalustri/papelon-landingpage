@@ -7,7 +7,7 @@ cover: "images/5.jpg"
 ---
 
 <!-- coverCaption: "The first light theme by community member trviph" -->
-### About Us
+### ⌗ About Us
 We are a <kbd class="kbd-green">3-person</kbd> board game studio based in the historic island town of <kbd class="kbd-yellow">Visby</kbd>, Gotland (the very place where we learned to make games). We love collaborating with designers and artists, and above all, we want more people to <kbd class="kbd-blue">play</kbd> and <kbd class="kbd-red">create</kbd> games. And that’s why we think <kbd class="kbd-pink">print-and-play</kbd> is so great! 
 
 Take a 2 min tour around <kbd>Gotland</kbd> with us to learn more about our studio and see where we're heading next!!
@@ -18,7 +18,7 @@ You can enable it via config-->
 
 <!--more-->
 
-### The Tour
+### ⌗ The Tour
 
 <!-- ROW 1: Framed Image Left | Plain Text Right -->
 <div class="games-container">
@@ -72,7 +72,7 @@ You can enable it via config-->
 </div>
 
 
-## The Team
+## ⌗ The Team
 >We are <kbd>alumni</kbd> of the Game Design Department at Uppsala University, Campus Gotland. Our team:
 >
 >-- <kbd class="kbd-purple">Majo 🦙 </kbd>: Peruvian game designer specializing in developing, editing and localizing board games.
