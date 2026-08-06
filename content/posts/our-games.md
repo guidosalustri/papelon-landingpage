@@ -6,7 +6,7 @@ tags: ["board games", "abstract", "cards"]
 cover: "images/ourgames.jpg"
 ---
 
-### Essom + Hamla
+### ⌗ Essom + Hamla
 For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd> and <kbd>Essom</kbd>. Both games were made on Gotland, and they share the <kbd class="kbd-pink">award</kbd> for Best Game Design at the Gotland Game Conference 2025. As the Designers put it: “We are <kbd class="kbd-yellow">friends</kbd> that encouraged each other to present our games at the conference, so we see it as a very fitting ending to <kbd class="kbd-red">share</kbd> the award”.
 
 <kbd class="kbd-purple">Curious</kbd> about the games?
@@ -26,7 +26,7 @@ For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd
 <br>
 <br>
 
-### Essom
+### ⌗ Essom
 <div class="games-container">
   <div style="flex: 1;">
     <p><kbd class="kbd-blue" style="padding: 8px 16px;">Players: 2 | Age: 10+ | Time: 25’</kbd></p>
@@ -46,7 +46,7 @@ For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd
 
 ---
 
-### Hamla
+### ⌗ Hamla
 <div class="games-container">
   <div class="game-box game-yellow" style="flex: 0 0 56%; max-width: 56%;" >
     <img src="/images/Hamla_thumbnail.png" style="

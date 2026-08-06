@@ -14,20 +14,20 @@
       
       <guid>http://localhost:1313/posts/introducing-papelon/</guid>
       <description>&lt;!-- coverCaption: &#34;The first light theme by community member trviph&#34; --&gt;
-&lt;h3 id=&#34;about-us&#34;&gt;About Us&lt;/h3&gt;
+&lt;h3 id=&#34;-about-us&#34;&gt;⌗ About Us&lt;/h3&gt;
 &lt;p&gt;We are a &lt;kbd class=&#34;kbd-green&#34;&gt;3-person&lt;/kbd&gt; board game studio based in the historic island town of &lt;kbd class=&#34;kbd-yellow&#34;&gt;Visby&lt;/kbd&gt;, Gotland (the very place where we learned to make games). We love collaborating with designers and artists, and above all, we want more people to &lt;kbd class=&#34;kbd-blue&#34;&gt;play&lt;/kbd&gt; and &lt;kbd class=&#34;kbd-red&#34;&gt;create&lt;/kbd&gt; games. And that’s why we think &lt;kbd class=&#34;kbd-pink&#34;&gt;print-and-play&lt;/kbd&gt; is so great!&lt;/p&gt;
 &lt;p&gt;Take a 2 min tour around &lt;kbd&gt;Gotland&lt;/kbd&gt; with us to learn more about our studio and see where we&amp;rsquo;re heading next!!&lt;/p&gt;
 &lt;!-- We have an issue on the GitHub about the built-in light themes for re-Terminal Hugo Theme, and today I&#39;m glad to introduce the very first light theme made by trviph that is called **Paper**.
 
 You can enable it via config--&gt;</description>
       <content>&lt;!-- coverCaption: &#34;The first light theme by community member trviph&#34; --&gt;
-&lt;h3 id=&#34;about-us&#34;&gt;About Us&lt;/h3&gt;
+&lt;h3 id=&#34;-about-us&#34;&gt;⌗ About Us&lt;/h3&gt;
 &lt;p&gt;We are a &lt;kbd class=&#34;kbd-green&#34;&gt;3-person&lt;/kbd&gt; board game studio based in the historic island town of &lt;kbd class=&#34;kbd-yellow&#34;&gt;Visby&lt;/kbd&gt;, Gotland (the very place where we learned to make games). We love collaborating with designers and artists, and above all, we want more people to &lt;kbd class=&#34;kbd-blue&#34;&gt;play&lt;/kbd&gt; and &lt;kbd class=&#34;kbd-red&#34;&gt;create&lt;/kbd&gt; games. And that’s why we think &lt;kbd class=&#34;kbd-pink&#34;&gt;print-and-play&lt;/kbd&gt; is so great!&lt;/p&gt;
 &lt;p&gt;Take a 2 min tour around &lt;kbd&gt;Gotland&lt;/kbd&gt; with us to learn more about our studio and see where we&amp;rsquo;re heading next!!&lt;/p&gt;
 &lt;!-- We have an issue on the GitHub about the built-in light themes for re-Terminal Hugo Theme, and today I&#39;m glad to introduce the very first light theme made by trviph that is called **Paper**.
 
 You can enable it via config--&gt;
-&lt;h3 id=&#34;the-tour&#34;&gt;The Tour&lt;/h3&gt;
+&lt;h3 id=&#34;-the-tour&#34;&gt;⌗ The Tour&lt;/h3&gt;
 &lt;!-- ROW 1: Framed Image Left | Plain Text Right --&gt;
 &lt;div class=&#34;games-container&#34;&gt;
   &lt;div class=&#34;game-box game-purple&#34; style=&#34;flex: 0 0 60%; max-width: 60%;&#34; &gt;
@@ -76,11 +76,11 @@ You can enable it via config--&gt;
     &lt;p&gt;&lt;kbd class=&#34;kbd-pink&#34;&gt;Board games&lt;/kbd&gt; are great for having fun, but they can also create a &lt;kbd class=&#34;kbd-pink&#34;&gt;safe space&lt;/kbd&gt; to foster integration, emotional regulation and cognitive skills. This gives so much &lt;kbd class=&#34;kbd-pink&#34;&gt;exciting&lt;/kbd&gt; room to explore and create!&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;the-team&#34;&gt;The Team&lt;/h2&gt;
+&lt;h2 id=&#34;-the-team&#34;&gt;⌗ The Team&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;We are &lt;kbd&gt;alumni&lt;/kbd&gt; of the Game Design Department at Uppsala University, Campus Gotland. Our team:&lt;/p&gt;
 &lt;p&gt;&amp;ndash; &lt;kbd class=&#34;kbd-purple&#34;&gt;Majo 🦙 &lt;/kbd&gt;: Peruvian game designer specializing in developing, editing and localizing board games.&lt;/p&gt;
-&lt;p&gt;&amp;ndash; &lt;kbd class=&#34;kbd-blue&#34;&gt;Guido 🧉 &lt;/kbd&gt;: A Biologist from Argentina doing Game Dev (?)&lt;/p&gt;
+&lt;p&gt;&amp;ndash; &lt;kbd class=&#34;kbd-blue&#34;&gt;Guido 🧉 &lt;/kbd&gt;: A Biologist from Argentina doing Game Dev.&lt;/p&gt;
 &lt;p&gt;&amp;ndash; &lt;kbd class=&#34;kbd-red&#34;&gt;Joel 🦌&lt;/kbd&gt;: From Sweden🫎, always late to meetings, but just to make everyone in the team feel at home.&lt;/p&gt;
 &lt;p&gt;Follow our &lt;kbd class=&#34;kbd-green&#34;&gt;Kickstarter&lt;/kbd&gt; to help our studio grow! 🚀&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -96,10 +96,10 @@ You can enable it via config--&gt;
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/our-games/</guid>
-      <description>&lt;h3 id=&#34;essom--hamla&#34;&gt;Essom + Hamla&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;-essom--hamla&#34;&gt;⌗ Essom + Hamla&lt;/h3&gt;
 &lt;p&gt;For our first kickstarter we feature two games: &lt;kbd class=&#34;kbd-blue&#34;&gt;Hamla&lt;/kbd&gt; and &lt;kbd&gt;Essom&lt;/kbd&gt;. Both games were made on Gotland, and they share the &lt;kbd class=&#34;kbd-pink&#34;&gt;award&lt;/kbd&gt; for Best Game Design at the Gotland Game Conference 2025. As the Designers put it: “We are &lt;kbd class=&#34;kbd-yellow&#34;&gt;friends&lt;/kbd&gt; that encouraged each other to present our games at the conference, so we see it as a very fitting ending to &lt;kbd class=&#34;kbd-red&#34;&gt;share&lt;/kbd&gt; the award”.&lt;/p&gt;
 &lt;p&gt;&lt;kbd class=&#34;kbd-purple&#34;&gt;Curious&lt;/kbd&gt; about the games?&lt;/p&gt;</description>
-      <content>&lt;h3 id=&#34;essom--hamla&#34;&gt;Essom + Hamla&lt;/h3&gt;
+      <content>&lt;h3 id=&#34;-essom--hamla&#34;&gt;⌗ Essom + Hamla&lt;/h3&gt;
 &lt;p&gt;For our first kickstarter we feature two games: &lt;kbd class=&#34;kbd-blue&#34;&gt;Hamla&lt;/kbd&gt; and &lt;kbd&gt;Essom&lt;/kbd&gt;. Both games were made on Gotland, and they share the &lt;kbd class=&#34;kbd-pink&#34;&gt;award&lt;/kbd&gt; for Best Game Design at the Gotland Game Conference 2025. As the Designers put it: “We are &lt;kbd class=&#34;kbd-yellow&#34;&gt;friends&lt;/kbd&gt; that encouraged each other to present our games at the conference, so we see it as a very fitting ending to &lt;kbd class=&#34;kbd-red&#34;&gt;share&lt;/kbd&gt; the award”.&lt;/p&gt;
 &lt;p&gt;&lt;kbd class=&#34;kbd-purple&#34;&gt;Curious&lt;/kbd&gt; about the games?&lt;/p&gt;
 &lt;div class=&#34;game-box game-green &#34; style=&#34;flex: 0 0 80%; max-width: 80%; margin: 0 auto;&#34;&gt;
@@ -113,7 +113,7 @@ You can enable it via config--&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;h3 id=&#34;essom&#34;&gt;Essom&lt;/h3&gt;
+&lt;h3 id=&#34;-essom&#34;&gt;⌗ Essom&lt;/h3&gt;
 &lt;div class=&#34;games-container&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;&lt;kbd class=&#34;kbd-blue&#34; style=&#34;padding: 8px 16px;&#34;&gt;Players: 2 | Age: 10+ | Time: 25’&lt;/kbd&gt;&lt;/p&gt;
@@ -131,7 +131,7 @@ You can enable it via config--&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;hamla&#34;&gt;Hamla&lt;/h3&gt;
+&lt;h3 id=&#34;-hamla&#34;&gt;⌗ Hamla&lt;/h3&gt;
 &lt;div class=&#34;games-container&#34;&gt;
   &lt;div class=&#34;game-box game-yellow&#34; style=&#34;flex: 0 0 56%; max-width: 56%;&#34; &gt;
     &lt;img src=&#34;http://localhost:1313/images/Hamla_thumbnail.png&#34; style=&#34;
