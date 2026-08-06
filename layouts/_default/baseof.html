@@ -30,12 +30,21 @@
 <div class="retro-top-banner">
   <!-- Centered Logo -->
   <img src="/images/logos/Papelon_1-01.png" style="
+        grid-area: 1 / 1;
         max-width: 100%; 
         height: auto; 
-        max-height: 395px;
+        max-height: 390px;
         object-fit: contain; 
         image-rendering: smooth !important;
       "/>
+  <!--<img src="/images/logos/Papelon_3.png" style="
+        grid-area: 1 / 1;
+        max-width: 100%; 
+        height: auto; 
+        max-height: 390px;
+        object-fit: contain; 
+        image-rendering: smooth !important;
+      "/>-->
 </div>
 
 {{ $container := cond ($.Site.Params.FullWidthTheme | default false) "container full" (cond ($.Site.Params.CenterTheme | default true) "container center" "container") }}

@@ -3,7 +3,7 @@ title: "Introducing Papelon Studio."
 date: 2026-07-13
 readingTime: true
 tags: ["board games", "gotland", "print&play"]
-cover: "images/5.jpg"
+cover: "images/cover-studio1.jpg"
 ---
 
 <!-- coverCaption: "The first light theme by community member trviph" -->
