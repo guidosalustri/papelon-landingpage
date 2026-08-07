@@ -77,7 +77,7 @@ You can enable it via config-->
 >
 >-- <kbd class="kbd-purple">Majo 🦙 </kbd>: Peruvian game designer specializing in developing, editing and localizing board games.
 >
->-- <kbd class="kbd-blue">Guido 🧉 </kbd>: A Biologist from Argentina doing Game Dev in Sweden.
+>-- <kbd class="kbd-blue">Guido 🧉 </kbd>: A Biologist from Argentina doing Game Dev in Sweden
 >
 >-- <kbd class="kbd-red">Joel 🦌</kbd>: From Sweden🫎, always late to meetings, but just to make everyone in the team feel at home.
 >
