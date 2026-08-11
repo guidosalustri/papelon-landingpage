@@ -9,7 +9,7 @@ title: "Welcome to Papelon"
   <!--<input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">-->
 
 <!-- The 'onsubmit' part freezes the form so it never leaves the page -->
-<form class="retro-single-form" id="kickstarter-form" style="flex: 0 0 55%; max-width: 55%; margin-top: -25px; margin-left: auto; margin-right: auto;>
+<form class="retro-single-form" id="kickstarter-form" style="flex: 0 0 55%; max-width: 55%; margin-top: -25px; margin-left: auto; margin-right: auto;">
   <!-- 1. YOUR WEB3FORMS ACCESS KEY (Paste your key here) -->
   <input type="hidden" name="access_key" value="110d46e0-a47e-42bf-b904-a856eca735e7">
 
