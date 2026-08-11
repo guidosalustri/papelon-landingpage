@@ -76,7 +76,7 @@ You can enable it via config-->
 
 <div class="game-box game-yellow " style="flex: 0 0 75%; max-width: 75%; margin-top: 45px; margin-left: auto; margin-right: auto;">
     <img src="/images/team.png" style="
-        max-width: 90%; 
+        max-width: 100%; 
         height: auto; 
         max-height: 360px; 
         object-fit: contain; 
