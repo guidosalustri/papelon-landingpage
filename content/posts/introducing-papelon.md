@@ -74,7 +74,7 @@ You can enable it via config-->
 
 ## ⌗ The Team
 
-<!--<div class="game-box game-yellow " style="flex: 0 0 75%; max-width: 75%; margin-top: 45px; margin-left: auto; margin-right: auto;">
+<div class="game-box game-yellow " style="flex: 0 0 75%; max-width: 75%; margin-top: 45px; margin-left: auto; margin-right: auto;">
     <img src="/images/team.png" style="
         max-width: 90%; 
         height: auto; 
@@ -82,7 +82,7 @@ You can enable it via config-->
         object-fit: contain; 
         image-rendering: smooth !important;
       "/>
-</div>-->
+</div>
 
 >We are <kbd>alumni</kbd> of the Game Design Department at Uppsala University, Campus Gotland. Our team:
 >
