@@ -73,6 +73,17 @@ You can enable it via config-->
 
 
 ## ⌗ The Team
+
+<!--<div class="game-box game-yellow " style="flex: 0 0 75%; max-width: 75%; margin-top: 45px; margin-left: auto; margin-right: auto;">
+    <img src="/images/team.png" style="
+        max-width: 90%; 
+        height: auto; 
+        max-height: 360px; 
+        object-fit: contain; 
+        image-rendering: smooth !important;
+      "/>
+</div>-->
+
 >We are <kbd>alumni</kbd> of the Game Design Department at Uppsala University, Campus Gotland. Our team:
 >
 >-- <kbd class="kbd-purple">Majo 🦙 </kbd>: Peruvian game designer specializing in developing, editing and localizing board games.
