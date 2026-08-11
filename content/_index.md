@@ -1,10 +1,6 @@
 ---
 title: "Welcome to Papelon"
 ---
-# ⌗ Welcome to Papelon
->Hello there! We are a bunch of <kbd class="kbd-yellow">game designers</kbd> from around the world sitting on top of a small limestone island in the middle of the <kbd class="kbd-red">Baltic Sea</kbd>. Together, we run a tiny <kbd class="kbd-blue">board game studio</kbd> that hopes to make the hobby more <kbd class="kbd-pink">accessible</kbd> for both players and designers.
->
->Join us for the launch of our first <kbd>Kickstarter</kbd> campaign! We are featuring two of <kbd class="kbd-purple">our games!</kbd> If you want to learn more about our studio or the games, you'll find more info below <kbd class="kbd-green">:D</kbd>
 
 
 <!--<form class="retro-single-form" action="https://api.web3forms.com/submit" method="POST">-->
@@ -13,7 +9,7 @@ title: "Welcome to Papelon"
   <!--<input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">-->
 
 <!-- The 'onsubmit' part freezes the form so it never leaves the page -->
-<form class="retro-single-form" id="kickstarter-form">
+<form class="retro-single-form" id="kickstarter-form" style="flex: 0 0 55%; max-width: 55%; margin-top: -25px; margin-left: auto; margin-right: auto;>
   <!-- 1. YOUR WEB3FORMS ACCESS KEY (Paste your key here) -->
   <input type="hidden" name="access_key" value="110d46e0-a47e-42bf-b904-a856eca735e7">
 
@@ -23,7 +19,7 @@ title: "Welcome to Papelon"
   <!-- 3. OPTIONAL: Spam protection honeypot -->
   <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
   <!-- Header Text -->
-  <p class="retro-form-title">Get Kickstarter Updates!</p>
+  <p class="retro-form-title">Follow our Project!</p>
   
   <!-- Email Input Box -->
   <input type="email" name="email" placeholder="Type your email..." required autocomplete="off">
@@ -33,6 +29,16 @@ title: "Welcome to Papelon"
 
   <!-- Message placeholder (shows thank you or error message here) -->
   <p id="form-result" style="margin-top: 10px; font-weight: bold; min-height: 1.5em;">&nbsp;</p>
+
+  <img src="/images/Kickstarter-logo.png" style="
+        max-width: 65%; 
+        height: auto; 
+        max-height: 360px; 
+        object-fit: contain; 
+        image-rendering: smooth !important;
+        display: block;
+        margin: -85px auto !important;
+      "/>
 
 </form>
 
@@ -80,6 +86,11 @@ title: "Welcome to Papelon"
   });
 </script>
 
+# ⌗ Welcome to Papelon
+>Hello there! We are a bunch of <kbd class="kbd-yellow">game designers</kbd> from around the world sitting on top of a small limestone island in the middle of the <kbd class="kbd-red">Baltic Sea</kbd>. Together, we run a tiny <kbd class="kbd-blue">board game studio</kbd> that hopes to make the hobby more <kbd class="kbd-pink">accessible</kbd> for both players and designers.
+>
+>Help us bring our first <kbd class="kbd-purple">two games</kbd> to life on <kbd>Kickstarter!!</kbd> If you want to learn more about our studio or what we're building, check out the details below <kbd class="kbd-green">:D</kbd> 
+
 <!-- Container for side-by-side game boxes -->
 <div class="games-container" style="display: flex; align-items: center; justify-content: center;">
 
@@ -126,13 +137,3 @@ title: "Welcome to Papelon"
   </div>
 
 </div>
-
-<img src="/images/Kickstarter-logo.png" style="
-        max-width: 40%; 
-        height: auto; 
-        max-height: 360px; 
-        object-fit: contain; 
-        image-rendering: smooth !important;
-        display: block;
-        margin: -45px auto !important;
-      "/>
