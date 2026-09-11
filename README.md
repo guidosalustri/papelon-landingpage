@@ -4,7 +4,7 @@
 > **Live at [papelonstudio.me](https://papelonstudio.me/)** — the Kickstarter campaign
 > site for an independent board game studio.
 
-It exists to do one thing: introduce the studio and its two games, and collect email
+The Webpage introduce the studio and its two games, and collect email
 signups ahead of a Kickstarter launch. The form sits above the fold, the game sections
 below give people a reason to fill it in, and nothing else competes for attention.
 
