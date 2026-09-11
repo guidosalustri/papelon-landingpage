@@ -1,4 +1,4 @@
-# Papelon Studio - Landing Page
+# Papelon Studio — Landing Page
 
 The campaign site for [Papelon Studio](https://papelonstudio.me/), an independent board
 game studio. It exists to do one thing: introduce the studio and its two games, and
