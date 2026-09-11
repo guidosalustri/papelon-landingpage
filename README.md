@@ -1,4 +1,4 @@
-# Papelon Studio — Landing Page
+# Papelon Studio - Landing Page
 
 The campaign site for [Papelon Studio](https://papelonstudio.me/), an independent board
 game studio. It exists to do one thing: introduce the studio and its two games, and
@@ -8,14 +8,14 @@ attention.
 
 ## Details
 
-- **Design** — grid-paper backgrounds, a paper palette and a monospace face: a
+- **Design**: grid-paper backgrounds, a paper palette and a monospace face: a
   deliberate nod to making physical games rather than a clean SaaS look
-- **Layout** — ~380 lines of custom CSS and ~150 of Hugo template overrides on top of
+- **Layout**: ~380 lines of custom CSS and ~150 of Hugo template overrides on top of
   the base theme, responsive across two breakpoints
-- **Sharing** — most traffic arrives through a shared link, so the preview card is part
+- **Sharing**: most traffic arrives through a shared link, so the preview card is part
   of the page; Open Graph tags come from the theme, title construction is customised in
   the layout override
-- **Signup form** — hand-written rather than a dropped-in widget: intercepts the submit,
+- **Signup form**: hand-written rather than a dropped-in widget: intercepts the submit,
   POSTs JSON to a third-party form API, and resolves in place with inline success and
   error states, plus a honeypot for bots
 
