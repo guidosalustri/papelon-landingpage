@@ -116,7 +116,7 @@ cover: "images/social-card.png"
     justify-content: center;
     padding: 15px;
   ">
-    <img src="/images/hamla-logo.png" alt="Hamla" style="
+    <img src="/images/logos/hamla-logo.png" alt="Hamla" style="
       max-width: 85%; 
       max-height: 65%; 
       width: auto; 
