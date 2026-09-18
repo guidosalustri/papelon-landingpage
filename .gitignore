@@ -1,0 +1,18 @@
+# Hugo build output — rebuilt from source by .github/workflows/hugo.yml
+# on every push to main, so it never needs to be committed.
+/public/
+/.hugo_build.lock
+
+# Assets staged for review: working art files and images nothing currently
+# references. Kept on disk so they can be sorted through, kept out of the
+# repository and out of the published site.
+/_assets-review/
+
+# Working art formats and editor backups must never ship with the site.
+*.kra
+*.HEIC
+*~
+
+# OS cruft
+.DS_Store
+Thumbs.db
