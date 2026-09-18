@@ -203,6 +203,26 @@ kbd {
 }
 
 /* ==========================================================================
+   POST HEADER SPACING
+   The gap between the menu and a post title measured 116px, made of five
+   separate spacings stacking: 20px nav margin, 16px .content padding, 20px
+   article margin, 20px article padding and a 40px title margin. That reads
+   as blank space rather than breathing room.
+
+   Collapse the article's own spacing and trim the title margin. Scoped to
+   single posts with :not(.on-list) so the post list on the homepage keeps
+   its original rhythm between entries.
+   ========================================================================== */
+.post:not(.on-list) {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.post:not(.on-list) .post-title {
+    margin-top: 8px !important;
+}
+
+/* ==========================================================================
    SIDE-BY-SIDE GAME LOGO BOXES & CONTAINERS
    ========================================================================== */
 
