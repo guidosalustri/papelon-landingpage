@@ -294,7 +294,16 @@ kbd {
     }
     .game-box {
         width: 100% !important;
-        max-width: 480px !important;
+        /* 480px was wider than the 380px these boxes get on desktop. */
+        max-width: 380px !important;
+    }
+
+    /* The logos are sized as a percentage of the box, so as the box widens on
+       mobile they grow past their desktop size: 380px wide at a 600px viewport
+       versus about 213px on desktop. Cap them in absolute terms instead. */
+    .games-container .game-box img {
+        max-width: 260px !important;
+        max-height: 150px !important;
     }
     .game-separator {
         transform: rotate(90deg) !important; /* Cascades down mobile display */
@@ -307,8 +316,12 @@ kbd {
        the title onto three lines. Inline styles outrank stylesheet rules, so
        these need !important. */
     #kickstarter-form {
-        flex: 0 0 100% !important;
-        max-width: 100% !important;
+        flex: 0 0 auto !important;
+        width: 100% !important;
+        /* .retro-single-form caps the form at 480px. An earlier fix here used
+           max-width: 100%, which removed that cap and let the form stretch to
+           690px at 768px before snapping back to 433px on desktop. */
+        max-width: 480px !important;
     }
 
     /* The -85px pull on the Kickstarter logo was measured against the taller
