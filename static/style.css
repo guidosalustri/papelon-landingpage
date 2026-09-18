@@ -333,6 +333,25 @@ kbd {
 }
 
 /* ==========================================================================
+   FORM TITLE: KEEP IT ON ONE LINE
+   The title is an inline-block. When its text wraps, CSS expands the box to
+   the full available width instead of shrinking it to the longest line, so
+   a wrapped title leaves a dead gap after "PROJECT!" and the border no
+   longer fits the text.
+
+   Rather than step the size at breakpoints - which puts a cliff exactly
+   where the text stops fitting - scale it fluidly so it always fits on one
+   line. Measured: the title is 177px wide per 1em plus 16px of padding and
+   border, and has roughly (viewport - 128px) of room. Solving for a fit and
+   adding headroom gives the 0.085 factor below. The clamp caps it at 20px,
+   so nothing changes at tablet width and above.
+   ========================================================================== */
+.retro-single-form .retro-form-title {
+    font-size: clamp(13px, calc((100vw - 144px) * 0.085), 20px) !important;
+    text-align: center;
+}
+
+/* ==========================================================================
    RETRO TOP BANNER STYLING
    ========================================================================== */
 
