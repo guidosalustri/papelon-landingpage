@@ -41,7 +41,7 @@ cover: "images/social-card.png"
         object-fit: contain; 
         image-rendering: smooth !important;
         display: block;
-        margin: -85px auto !important;
+        margin: 12px auto 0 !important;
       "/>
 
 </form>

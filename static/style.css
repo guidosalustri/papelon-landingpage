@@ -89,6 +89,18 @@ kbd {
 }
 
 /* 1. New Header Text Above the Field */
+/* Markdown wraps each form control in its own <p>, and those default 1em
+   margins are what produced the uneven spacing the negative margins were
+   hacking around. Zero them and let the flex gap set the rhythm, so spacing
+   is identical at every width. The title keeps its own larger bottom margin. */
+.retro-single-form {
+    gap: 12px !important;
+}
+
+.retro-single-form > p:not(.retro-form-title) {
+    margin: 0 !important;
+}
+
 .retro-single-form .retro-form-title {
     background-color: var(--background, #1a1b20) !important;
     border: 2px solid var(--theme-color, #2b2b2b) !important;
@@ -302,13 +314,16 @@ kbd {
         max-width: 380px !important;
     }
 
-    /* The logos are sized as a percentage of the box, so as the box widens on
-       mobile they grow past their desktop size: 380px wide at a 600px viewport
-       versus about 213px on desktop. Cap them in absolute terms instead. */
-    .games-container .game-box img {
-        /* min() so the absolute cap never overrides the box at narrow widths */
-        max-width: min(85%, 260px) !important;
-        max-height: 150px !important;
+    /* A frame should fit what it contains. The inline styles cap these images
+       by percentage (85%) and by height (360px), which on a stacked mobile
+       layout leaves the image far narrower than its box and produces dead
+       margins down both sides. Let the image fill the box content width so
+       the frame hugs it, with the box padding as the only breathing room. */
+    .game-box img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        max-height: none !important;
     }
     .game-separator {
         transform: rotate(90deg) !important; /* Cascades down mobile display */
@@ -327,13 +342,6 @@ kbd {
            max-width: 100%, which removed that cap and let the form stretch to
            690px at 768px before snapping back to 433px on desktop. */
         max-width: 480px !important;
-    }
-
-    /* The -85px pull on the Kickstarter logo was measured against the taller
-       desktop form; at phone widths it overlaps the submit button. */
-    #kickstarter-form img {
-        max-width: 58% !important;
-        margin: -40px auto -10px !important;
     }
 
 
