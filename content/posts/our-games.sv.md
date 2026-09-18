@@ -1,41 +1,33 @@
 ---
-title: "Our Games."   # TRANSLATE
+title: "Våra spel."
 date: 2026-07-13
 readingTime: true
-tags: ["board games", "abstract", "cards"]
+tags: ["brädspel", "abstrakt", "kort"]
 cover: "images/ourgames1.jpg"
 ---
 
 <!-- ===================================================================
-     SWEDISH TRANSLATION - NOT YET TRANSLATED
+     SWEDISH - DRAFT TRANSLATION, NEEDS A NATIVE SPEAKER
 
-     Every word below is still English. Replace the prose with swedish,
-     and translate the "title" in the front matter above.
-
-     Leave these alone, they are not text:
-       - anything inside < > such as <div>, <img>, <kbd class="...">
-       - image paths like /images/team.jpg
-       - the style="..." attributes
-       - the <script> block, if this file has one
-
-     DO translate the words between tags, for example
-       <kbd class="kbd-yellow">game designers</kbd>
-     becomes
-       <kbd class="kbd-yellow">speldesigners</kbd>
+     Joel should look at:
+       - the designers' quote, which should sound spoken rather than written
+       - "Basta speldesign" - check the award's actual Swedish name from the
+         Gotland Game Conference, rather than a translation of the English
+       - "brickor" for Essom's tokens, and "befalhavare" for Hamla's
+         commanders - use whatever the games' own rules call them
 
      English original for reference: content/posts/our-games.md
      =================================================================== -->
 
-
 ### ⌗ Essom + Hamla
-For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd> and <kbd>Essom</kbd>. Both games were made on Gotland, and they share the <kbd class="kbd-pink">award</kbd> for Best Game Design at the Gotland Game Conference 2025. As the Designers put it: “We are <kbd class="kbd-yellow">friends</kbd> that encouraged each other to present our games at the conference, so we see it as a very fitting ending to <kbd class="kbd-red">share</kbd> the award”.
+Till vår första Kickstarter presenterar vi två spel: <kbd class="kbd-blue">Hamla</kbd> och <kbd>Essom</kbd>. Båda spelen är gjorda på Gotland och de delar <kbd class="kbd-pink">priset</kbd> för Bästa speldesign på Gotland Game Conference 2025. Som designerna själva säger: ”Vi är <kbd class="kbd-yellow">vänner</kbd> som peppade varandra att visa våra spel på konferensen, så vi tycker att det är ett väldigt passande slut att <kbd class="kbd-red">dela</kbd> priset”.
 
-<kbd class="kbd-purple">Curious</kbd> about the games?
+<kbd class="kbd-purple">Nyfiken</kbd> på spelen?
 
 <!--more-->
 
 <div class="game-box game-green " style="flex: 0 0 80%; max-width: 80%; margin: 0 auto;">
-    <img src="/images/cover-ourgames.jpg" alt="Two game designers on stage holding flowers at the Gotland Game Conference 2025 award ceremony, with musicians and an audience around them" style="
+    <img src="/images/cover-ourgames.jpg" alt="Två speldesigners på scen med blommor i händerna under prisutdelningen på Gotland Game Conference 2025, omgivna av musiker och publik" style="
         max-width: 96%; 
         height: auto; 
         max-height: 360px; 
@@ -50,12 +42,12 @@ For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd
 ### ⌗ Essom
 <div class="games-container">
   <div style="flex: 1;">
-    <p><kbd class="kbd-blue kbd-stats" style="padding: 8px 16px;">Players: 2 | Age: 10+ | Time: 25’</kbd></p>
-    <h3>Summary.</h3>
-    <p>Essom is an <kbd class="kbd-yellow">abstract</kbd> game design by Guido Salustri, a game designer from Argentina. Essom combines <kbd class="kbd-green">hidden information</kbd> with <kbd class="kbd-red">tactical</kbd> depth, where players need to search for and retrieve <kbd class="kbd-purple">hidden tokens</kbd>.</p>
+    <p><kbd class="kbd-blue kbd-stats" style="padding: 8px 16px;">Spelare: 2 | Ålder: 10+ | Tid: 25’</kbd></p>
+    <h3>Sammanfattning.</h3>
+    <p>Essom är ett <kbd class="kbd-yellow">abstrakt</kbd> spel designat av Guido Salustri, speldesigner från Argentina. Essom kombinerar <kbd class="kbd-green">dold information</kbd> med <kbd class="kbd-red">taktiskt</kbd> djup, där spelarna måste leta efter och hämta <kbd class="kbd-purple">dolda brickor</kbd>.</p>
   </div>
   <div class="game-box game-blue" style="flex: 0 0 57%; max-width: 57%;">
-        <img src="/images/essom1.jpg" alt="Two players facing each other across the Essom board, a wooden grid of holes holding blue and orange cone-shaped pieces" style="
+        <img src="/images/essom1.jpg" alt="Två spelare mitt emot varandra vid Essom-brädet, ett trärutnät med hål och koniska pjäser i blått och orange" style="
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
@@ -70,12 +62,12 @@ For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd
 ### ⌗ Hamla
 <div class="games-container games-container--image-left">
   <div style="flex: 1;">
-    <p><kbd class="kbd-yellow kbd-stats" style="padding: 8px 16px;">Players: 2-6 | Age: 8+ | Time: 15’</kbd></p>
-    <h3>Summary.</h3>
-    <p>Hamla is a <kbd class="kbd-blue">card</kbd> game design by Márton Bodrog, a game designer from Hungary. Coming from the world of Trutina, Hamla is a game of cunning, <kbd class="kbd-pink">bluffing</kbd> and a bit of luck, where you take the role of commanders preparing for <kbd>battle</kbd>.</p>
+    <p><kbd class="kbd-yellow kbd-stats" style="padding: 8px 16px;">Spelare: 2-6 | Ålder: 8+ | Tid: 15’</kbd></p>
+    <h3>Sammanfattning.</h3>
+    <p>Hamla är ett <kbd class="kbd-blue">kortspel</kbd> designat av Márton Bodrog, speldesigner från Ungern. Hamla utspelar sig i Trutinas värld och är ett spel om list, <kbd class="kbd-pink">bluffande</kbd> och lite tur, där du tar rollen som befälhavare som förbereder sig för <kbd>strid</kbd>.</p>
   </div>
   <div class="game-box game-yellow" style="flex: 0 0 56%; max-width: 56%;" >
-    <img src="/images/Hamla_thumbnail.jpg" alt="Two players holding illustrated Hamla cards outdoors, with yellow-backed cards laid out on a grey mat between them" style="
+    <img src="/images/Hamla_thumbnail.jpg" alt="Två personer som håller illustrerade Hamla-kort utomhus, med gulryggade kort utlagda på en grå duk" style="
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
@@ -85,4 +77,4 @@ For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd
   </div>
 </div>
 
->Make sure to follow our <kbd class="kbd-green">Kickstarter</kbd> to keep track of our games!
+>Glöm inte att följa vår <kbd class="kbd-green">Kickstarter</kbd> för att hålla koll på våra spel!

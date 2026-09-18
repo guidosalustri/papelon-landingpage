@@ -85,7 +85,7 @@ kbd {
 }
 
 .kbd-stats {
-    font-size: clamp(9px, calc(5cqw - 1.85px), 13.6px) !important;
+    font-size: clamp(8px, calc(4.2cqw - 1.3px), 13.6px) !important;
 }
 
 .games-container.games-container--image-left {
@@ -584,13 +584,18 @@ body {
    (0.042 x column - 1.2px) to stay on one line. The values below sit just
    under those, and both still cap at the English maximum so nothing grows.
 
-   Swedish will need the same treatment once it is translated - measure,
-   do not guess.
+   The stat badge is NOT handled per language. Three languages in a row
+   needed a different constant for it - Swedish is only one character
+   longer than English and that was enough to wrap it - so its base rule
+   above is now sized for the longest of the three and applies to all.
+   English and Swedish end up a little smaller than they strictly need,
+   which is a fair trade for a rule that survives a copy edit.
+
+   The form title stays per language because Spanish is genuinely much
+   longer there (24 characters against 18 for Swedish and 19 for English),
+   so one shared constant would shrink the other two noticeably.
    ========================================================================== */
 :lang(es) .retro-single-form .retro-form-title {
     font-size: clamp(10px, calc(6.8vw - 10.5px), 20px) !important;
 }
 
-:lang(es) .kbd-stats {
-    font-size: clamp(8px, calc(4.2cqw - 1.3px), 13.6px) !important;
-}
