@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Papelon"   # TRANSLATE
+title: "Bienvenidos a Papelon"
 # Open Graph share-card image. The homepage layout renders covers inside the
 # posts loop only, never for the page itself, so this changes the link
 # preview and nothing visible on the page.
@@ -7,21 +7,12 @@ cover: "images/social-card.png"
 ---
 
 <!-- ===================================================================
-     SPANISH TRANSLATION - NOT YET TRANSLATED
+     SPANISH - DRAFT TRANSLATION, PLEASE REVIEW
 
-     Every word below is still English. Replace the prose with spanish,
-     and translate the "title" in the front matter above.
-
-     Leave these alone, they are not text:
-       - anything inside < > such as <div>, <img>, <kbd class="...">
-       - image paths like /images/team.jpg
-       - the style="..." attributes
-       - the <script> block, if this file has one
-
-     DO translate the words between tags, for example
-       <kbd class="kbd-yellow">game designers</kbd>
-     becomes
-       <kbd class="kbd-yellow">diseñadores de juegos</kbd>
+     Written in neutral Latin American Spanish (tuteo: "quieres", "mira").
+     If you would rather it sounded Argentine (voseo: "querés", "mirá"),
+     say so and it can be switched throughout - it is a consistent change,
+     not a rewrite.
 
      English original for reference: content/_index.md
      =================================================================== -->
@@ -44,13 +35,13 @@ cover: "images/social-card.png"
   <!-- 3. OPTIONAL: Spam protection honeypot -->
   <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
   <!-- Header Text -->
-  <p class="retro-form-title">Follow our Project!</p>
+  <p class="retro-form-title">¡Sigue nuestro proyecto!</p>
   
   <!-- Email Input Box -->
-  <input type="email" name="email" placeholder="Type your email..." required autocomplete="off">
+  <input type="email" name="email" placeholder="Escribe tu correo..." required autocomplete="off">
 
   <!-- Submit Button -->
-  <button type="submit" class="submit-btn" id="submit-btn">Follow</button>
+  <button type="submit" class="submit-btn" id="submit-btn">Seguir</button>
 
   <!-- Message placeholder (shows thank you or error message here) -->
   <p id="form-result" role="status" aria-live="polite" style="margin-top: 10px; font-weight: bold; min-height: 1.5em;">&nbsp;</p>
@@ -74,7 +65,7 @@ cover: "images/social-card.png"
 
   // How long to wait before giving up. Without this the request can hang
   // indefinitely, leaving the button disabled and the user staring at
-  // "Submitting..." with no way to retry.
+  // "Enviando..." with no way to retry.
   const TIMEOUT_MS = 10000;
 
   form.addEventListener("submit", function (e) {
@@ -82,7 +73,7 @@ cover: "images/social-card.png"
 
     button.disabled = true;
     result.style.color = "";
-    result.innerText = "Submitting...";
+    result.innerText = "Enviando...";
 
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
@@ -99,18 +90,18 @@ cover: "images/social-card.png"
         const res = await response.json().catch(() => ({}));
         if (response.ok) {
           result.style.color = "green";
-          result.innerText = "Thanks for subscribing! 🎉";
+          result.innerText = "¡Gracias por suscribirte! 🎉";
           form.reset();
         } else {
           result.style.color = "red";
-          result.innerText = res.message || "Something went wrong. Please try again.";
+          result.innerText = res.message || "Algo salió mal. Intenta de nuevo.";
         }
       })
       .catch((error) => {
         result.style.color = "red";
         result.innerText = error.name === "AbortError"
-          ? "That is taking longer than expected. Please check your connection and try again."
-          : "Could not reach the server. Please try again.";
+          ? "Está tardando más de lo esperado. Revisa tu conexión e intenta de nuevo."
+          : "No se pudo conectar con el servidor. Intenta de nuevo.";
       })
       .finally(() => {
         clearTimeout(timer);
@@ -119,10 +110,10 @@ cover: "images/social-card.png"
   });
 </script>
 
-# ⌗ Welcome to Papelon
->Hello there! We are a bunch of <kbd class="kbd-yellow">game designers</kbd> from around the world sitting on top of a small limestone island in the middle of the <kbd class="kbd-red">Baltic Sea</kbd>. Together, we run a tiny <kbd class="kbd-blue">board game studio</kbd> that hopes to make the hobby more <kbd class="kbd-pink">accessible</kbd> for both players and designers.
+# ⌗ Bienvenidos a Papelon
+>¡Hola! Somos un grupo de <kbd class="kbd-yellow">diseñadores de juegos</kbd> de distintas partes del mundo, instalados sobre una pequeña isla de piedra caliza en medio del <kbd class="kbd-red">mar Báltico</kbd>. Juntos llevamos un pequeño <kbd class="kbd-blue">estudio de juegos de mesa</kbd> que quiere hacer el hobby más <kbd class="kbd-pink">accesible</kbd>, tanto para quienes juegan como para quienes diseñan.
 >
->Help us bring our first <kbd class="kbd-purple">two games</kbd> to life on <kbd>Kickstarter!!</kbd> If you want to learn more about our studio or what we're building, check out the details below <kbd class="kbd-green">:D</kbd> 
+>¡Ayúdanos a dar vida a nuestros <kbd class="kbd-purple">dos primeros juegos</kbd> en <kbd>Kickstarter</kbd>! Si quieres saber más sobre el estudio o sobre lo que estamos creando, mira los detalles acá abajo <kbd class="kbd-green">:D</kbd> 
 
 <!-- Container for side-by-side game boxes -->
 <div class="games-container" style="display: flex; align-items: center; justify-content: center;">

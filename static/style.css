@@ -570,3 +570,27 @@ body {
   /*border-radius: 10px;
   border: 2px solid #f0a230; /* Crisp black border */
 }
+
+/* ==========================================================================
+   PER-LANGUAGE TEXT FITTING
+   The clamp formulas above were derived from the English strings, so they
+   do not hold for a longer translation. Spanish needs its own constants:
+   "Sigue nuestro proyecto" and "Jugadores: 2-6 | Edad: 8+ | Tiempo: 15'"
+   are both meaningfully longer than their English originals and wrapped at
+   every phone width using the English numbers.
+
+   Measured for Spanish: the form title needs about
+   (0.069 x column - 4.5px) and the stat badge about
+   (0.042 x column - 1.2px) to stay on one line. The values below sit just
+   under those, and both still cap at the English maximum so nothing grows.
+
+   Swedish will need the same treatment once it is translated - measure,
+   do not guess.
+   ========================================================================== */
+:lang(es) .retro-single-form .retro-form-title {
+    font-size: clamp(10px, calc(6.8vw - 10.5px), 20px) !important;
+}
+
+:lang(es) .kbd-stats {
+    font-size: clamp(8px, calc(4.2cqw - 1.3px), 13.6px) !important;
+}

@@ -49,7 +49,7 @@
   </div>
 
   <div class="read-more-container" style="margin-top: 2rem; margin-bottom: 2rem;">
-    <a class="read-more" style="font-weight: bold;" href="{{ "/" | relLangURL }}">← Back to main</a>
+    <a class="read-more" style="font-weight: bold;" href="{{ "/" | relLangURL }}">{{ .Site.Params.backToMain | default "← Back to main" }}</a>
   </div>
 
   {{ if eq .Type $.Site.Params.contentTypeName }}

@@ -1,50 +1,42 @@
 ---
-title: "Introducing Papelon Studio."   # TRANSLATE
+title: "Conoce a Papelon Studio."
 date: 2026-07-13
 readingTime: true
-tags: ["board games", "gotland", "print&play"]
+tags: ["juegos de mesa", "gotland", "print&play"]
 cover: "images/cover-studio.jpg"
 ---
 
 <!-- ===================================================================
-     SPANISH TRANSLATION - NOT YET TRANSLATED
+     SPANISH - DRAFT TRANSLATION, PLEASE REVIEW
 
-     Every word below is still English. Replace the prose with spanish,
-     and translate the "title" in the front matter above.
+     Neutral Latin American Spanish (tuteo). Two things to check:
 
-     Leave these alone, they are not text:
-       - anything inside < > such as <div>, <img>, <kbd class="...">
-       - image paths like /images/team.jpg
-       - the style="..." attributes
-       - the <script> block, if this file has one
+     1. The team bios are written with verbs rather than adjectives
+        ("disena juegos" rather than "disenadora") because Spanish forces a
+        grammatical gender that the English text never states. Set them
+        however each of you prefers.
 
-     DO translate the words between tags, for example
-       <kbd class="kbd-yellow">game designers</kbd>
-     becomes
-       <kbd class="kbd-yellow">diseñadores de juegos</kbd>
+     2. The tags are translated, so the Spanish site gets its own tag pages
+        at /es/tags/juegos-de-mesa/ etc. Say if you would rather they stayed
+        in English and matched across languages.
 
      English original for reference: content/posts/introducing-papelon.md
      =================================================================== -->
 
-
 <!-- coverCaption: "The first light theme by community member trviph" -->
-### ⌗ About Us
-We are a <kbd class="kbd-green">3-person</kbd> board game studio based in the historic island town of <kbd class="kbd-yellow">Visby</kbd>, Gotland (the very place where we learned to make games). We love collaborating with designers and artists, and above all, we want more people to <kbd class="kbd-blue">play</kbd> and <kbd class="kbd-red">create</kbd> games. And that’s why we think <kbd class="kbd-pink">print-and-play</kbd> is so great! 
+### ⌗ Sobre nosotros
+Somos un estudio de juegos de mesa de <kbd class="kbd-green">3 personas</kbd> con base en <kbd class="kbd-yellow">Visby</kbd>, la histórica ciudad isleña de Gotland (justo donde aprendimos a hacer juegos). Nos encanta colaborar con diseñadores y artistas y, sobre todo, queremos que más gente <kbd class="kbd-blue">juegue</kbd> y <kbd class="kbd-red">cree</kbd> juegos. ¡Por eso nos parece tan genial el <kbd class="kbd-pink">print-and-play</kbd>!
 
-Take a 2 min tour around <kbd>Gotland</kbd> with us to learn more about our studio and see where we're heading next!!
-
-<!-- We have an issue on the GitHub about the built-in light themes for re-Terminal Hugo Theme, and today I'm glad to introduce the very first light theme made by trviph that is called **Paper**.
-
-You can enable it via config-->
+¡Acompáñanos en un recorrido de 2 minutos por <kbd>Gotland</kbd> para conocer más sobre el estudio y ver hacia dónde vamos!
 
 <!--more-->
 
-### ⌗ The Tour
+### ⌗ El recorrido
 
 <!-- ROW 1: Framed Image Left | Plain Text Right -->
 <div class="games-container">
   <div class="game-box game-purple" style="flex: 0 0 60%; max-width: 60%;" >
-        <img src="/images/14.jpg" alt="Snow-covered Visby in winter, with birds flying over the duck pond below the medieval town wall" style="
+        <img src="/images/14.jpg" alt="Visby cubierta de nieve en invierno, con pájaros volando sobre el estanque junto a la muralla medieval" style="
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
@@ -53,19 +45,19 @@ You can enable it via config-->
       "/>
   </div>
   <div style="flex: 1;">
-    <h2>A Rising Tide Lifts all Boats</h2>
-    <p>We want to <kbd class="kbd-purple">support</kbd> emerging, diverse <kbd class="kbd-purple">talent</kbd> joining the board game <kbd class="kbd-purple">industry</kbd>. It’s <kbd class="kbd-purple">simple:</kbd> more diverse game crafters lead to more diverse crafted games <kbd class="kbd-purple">;)</kbd></p>
+    <h2>La marea que sube levanta todos los barcos</h2>
+    <p>Queremos <kbd class="kbd-purple">apoyar</kbd> al <kbd class="kbd-purple">talento</kbd> emergente y diverso que se suma a la <kbd class="kbd-purple">industria</kbd> de los juegos de mesa. Es <kbd class="kbd-purple">simple:</kbd> mientras más diversa sea la gente que crea juegos, más diversos serán los juegos que se crean <kbd class="kbd-purple">;)</kbd></p>
   </div>
 </div>
 
 <!-- ROW 2: Plain Text Left | Framed Image Right (SWAPPED) -->
 <div class="games-container">
   <div style="flex: 1;">
-    <h2>The Hidden Power of PnP</h2>
-    <p><kbd class="kbd-yellow">Print-and-play</kbd> makes games <kbd class="kbd-yellow">affordable</kbd>, instantly <kbd class="kbd-yellow">accessible</kbd> to everyone, and uniquely personal. You don’t just play the game, you spend time <kbd class="kbd-yellow">crafting</kbd> it, too. Think of it like IKEA: you get the pride of saying, 'I made this.' <kbd class="kbd-yellow">Go, go, PnP!</kbd></p>
+    <h2>El poder oculto del PnP</h2>
+    <p>El <kbd class="kbd-yellow">print-and-play</kbd> hace que los juegos sean <kbd class="kbd-yellow">económicos</kbd>, <kbd class="kbd-yellow">accesibles</kbd> al instante para cualquiera, y únicos. No solo juegas el juego: también pasas un rato <kbd class="kbd-yellow">armándolo</kbd>. Piénsalo como IKEA: te queda el orgullo de decir «esto lo hice yo». <kbd class="kbd-yellow">¡Vamos, PnP!</kbd></p>
   </div>
   <div class="game-box game-yellow" style="flex: 0 0 55%; max-width: 55%;">
-        <img src="/images/41.jpg" alt="Visby cathedral, its two black spires rising above autumn trees, with people walking along a path below" style="
+        <img src="/images/41.jpg" alt="La catedral de Visby, con sus dos torres negras asomando entre los árboles de otoño y gente caminando por un sendero" style="
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
@@ -78,7 +70,7 @@ You can enable it via config-->
 <!-- ROW 3: Framed Image Left | Plain Text Right -->
 <div class="games-container">
   <div class="game-box game-pink" style="flex: 0 0 55%; max-width: 55%;">
-        <img src="/images/36.jpg" alt="Rooftops and medieval church ruins of Visby overlooking the Baltic Sea in golden evening light" style="
+        <img src="/images/36.jpg" alt="Tejados y ruinas de iglesias medievales de Visby sobre el mar Báltico, con la luz dorada del atardecer" style="
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
@@ -87,16 +79,16 @@ You can enable it via config-->
       "/>
   </div>
   <div style="flex: 1;">
-    <h2>Nothing New Under the Sun</h2>
-    <p><kbd class="kbd-pink">Board games</kbd> are great for having fun, but they can also create a <kbd class="kbd-pink">safe space</kbd> to foster integration, emotional regulation and cognitive skills. This gives so much <kbd class="kbd-pink">exciting</kbd> room to explore and create!</p>
+    <h2>Nada nuevo bajo el sol</h2>
+    <p>Los <kbd class="kbd-pink">juegos de mesa</kbd> son geniales para divertirse, pero también pueden crear un <kbd class="kbd-pink">espacio seguro</kbd> que favorece la integración, la regulación emocional y las habilidades cognitivas. ¡Eso deja muchísimo espacio <kbd class="kbd-pink">emocionante</kbd> para explorar y crear!</p>
   </div>
 </div>
 
 
-## ⌗ The Team
+## ⌗ El equipo
 
 <div class="game-box game-yellow " style="flex: 0 0 75%; max-width: 75%; margin-top: 45px; margin-left: auto; margin-right: auto;">
-    <img src="/images/team.jpg" alt="The three members of Papelon Studio, cut out and tinted in cyan, red and pink, standing in front of a wooden building in Visby" style="
+    <img src="/images/team.jpg" alt="Los tres integrantes de Papelon Studio, recortados y teñidos en cian, rojo y rosa, frente a un edificio de madera en Visby" style="
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
@@ -105,18 +97,18 @@ You can enable it via config-->
       "/>
 </div>
 
->We are <kbd>alumni</kbd> of the Game Design Department at Uppsala University, Campus Gotland. Our team:
+>Somos <kbd>egresados</kbd> del Departamento de Diseño de Juegos de la Universidad de Uppsala, Campus Gotland. Nuestro equipo:
 >
->-- <kbd class="kbd-purple">Majo 🦙 </kbd>: Peruvian game designer specializing in developing, editing and localizing board games.
+>-- <kbd class="kbd-purple">Majo 🦙 </kbd>: diseña juegos de mesa desde Perú, con foco en desarrollo, edición y localización.
 >
->-- <kbd class="kbd-blue">Guido 🧉 </kbd>: A Biologist from Argentina doing Game Dev in Sweden.
+>-- <kbd class="kbd-blue">Guido 🧉 </kbd>: llegó desde la biología al desarrollo de juegos; de Argentina, trabajando en Suecia.
 >
->-- <kbd class="kbd-red">Joel 🦌</kbd>: From Sweden🫎, always late to meetings, but just to make everyone in the team feel at home.
+>-- <kbd class="kbd-red">Joel 🦌</kbd>: de Suecia🫎, siempre llega tarde a las reuniones, pero solo para que el resto del equipo se sienta como en casa.
 >
-> Follow our <kbd class="kbd-green">Kickstarter</kbd> to help our studio grow! 🚀
+> ¡Sigue nuestro <kbd class="kbd-green">Kickstarter</kbd> para ayudar a que el estudio crezca! 🚀
 
 
 <div style="font-size: 0.9em; opacity: 0.85; margin-top: 2rem; line-height: 1.6;">
   <span style="display: inline-block; font-size: 1.25em; margin-right: 4px;">📸</span>
-  <strong>Photo Credits:</strong> Photography by <kbd class="kbd-yellow">Hui Yuan</kbd> via <a href="https://www.instagram.com/rita_yhui?igsh=bHZncmtmeTE1MWho" target="_blank">Instagram</a>
+  <strong>Créditos de las fotos:</strong> fotografía de <kbd class="kbd-yellow">Hui Yuan</kbd> vía <a href="https://www.instagram.com/rita_yhui?igsh=bHZncmtmeTE1MWho" target="_blank">Instagram</a>
 </div>

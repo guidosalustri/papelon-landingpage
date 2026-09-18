@@ -29,6 +29,7 @@ relativeURLs = false
     title = 'Papelon Studio'
     
     [languages.en.params]
+      backToMain = '← Back to main'
       subtitle = 'Our Kickstarter Landing Page'
       favicon = '/favicon.png'
       keywords = ''
@@ -88,6 +89,7 @@ relativeURLs = false
     title = 'Papelon Studio'
 
     [languages.sv.params]
+      backToMain = '← Tillbaka till startsidan'   # draft - please check
       subtitle = 'Vår Kickstarter-landningssida'   # draft - please check
       favicon = '/favicon.png'
       keywords = ''
@@ -123,6 +125,7 @@ relativeURLs = false
     title = 'Papelon Studio'
 
     [languages.es.params]
+      backToMain = '← Volver al inicio'           # draft - please check
       subtitle = 'Nuestra página de Kickstarter'   # draft - please check
       favicon = '/favicon.png'
       keywords = ''
