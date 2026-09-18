@@ -1,0 +1,88 @@
+---
+title: "Our Games."   # TRANSLATE
+date: 2026-07-13
+readingTime: true
+tags: ["board games", "abstract", "cards"]
+cover: "images/ourgames1.jpg"
+---
+
+<!-- ===================================================================
+     SPANISH TRANSLATION - NOT YET TRANSLATED
+
+     Every word below is still English. Replace the prose with spanish,
+     and translate the "title" in the front matter above.
+
+     Leave these alone, they are not text:
+       - anything inside < > such as <div>, <img>, <kbd class="...">
+       - image paths like /images/team.jpg
+       - the style="..." attributes
+       - the <script> block, if this file has one
+
+     DO translate the words between tags, for example
+       <kbd class="kbd-yellow">game designers</kbd>
+     becomes
+       <kbd class="kbd-yellow">diseñadores de juegos</kbd>
+
+     English original for reference: content/posts/our-games.md
+     =================================================================== -->
+
+
+### ⌗ Essom + Hamla
+For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd> and <kbd>Essom</kbd>. Both games were made on Gotland, and they share the <kbd class="kbd-pink">award</kbd> for Best Game Design at the Gotland Game Conference 2025. As the Designers put it: “We are <kbd class="kbd-yellow">friends</kbd> that encouraged each other to present our games at the conference, so we see it as a very fitting ending to <kbd class="kbd-red">share</kbd> the award”.
+
+<kbd class="kbd-purple">Curious</kbd> about the games?
+
+<!--more-->
+
+<div class="game-box game-green " style="flex: 0 0 80%; max-width: 80%; margin: 0 auto;">
+    <img src="/images/cover-ourgames.jpg" alt="Two game designers on stage holding flowers at the Gotland Game Conference 2025 award ceremony, with musicians and an audience around them" style="
+        max-width: 96%; 
+        height: auto; 
+        max-height: 360px; 
+        object-fit: contain; 
+        image-rendering: smooth !important;
+      "/>
+</div>
+
+<br>
+<br>
+
+### ⌗ Essom
+<div class="games-container">
+  <div style="flex: 1;">
+    <p><kbd class="kbd-blue kbd-stats" style="padding: 8px 16px;">Players: 2 | Age: 10+ | Time: 25’</kbd></p>
+    <h3>Summary.</h3>
+    <p>Essom is an <kbd class="kbd-yellow">abstract</kbd> game design by Guido Salustri, a game designer from Argentina. Essom combines <kbd class="kbd-green">hidden information</kbd> with <kbd class="kbd-red">tactical</kbd> depth, where players need to search for and retrieve <kbd class="kbd-purple">hidden tokens</kbd>.</p>
+  </div>
+  <div class="game-box game-blue" style="flex: 0 0 57%; max-width: 57%;">
+        <img src="/images/essom1.jpg" alt="Two players facing each other across the Essom board, a wooden grid of holes holding blue and orange cone-shaped pieces" style="
+        max-width: 100%; 
+        height: auto; 
+        max-height: 360px; 
+        object-fit: contain; 
+        image-rendering: smooth !important;
+      "/>
+  </div>
+</div>
+
+---
+
+### ⌗ Hamla
+<div class="games-container games-container--image-left">
+  <div style="flex: 1;">
+    <p><kbd class="kbd-yellow kbd-stats" style="padding: 8px 16px;">Players: 2-6 | Age: 8+ | Time: 15’</kbd></p>
+    <h3>Summary.</h3>
+    <p>Hamla is a <kbd class="kbd-blue">card</kbd> game design by Márton Bodrog, a game designer from Hungary. Coming from the world of Trutina, Hamla is a game of cunning, <kbd class="kbd-pink">bluffing</kbd> and a bit of luck, where you take the role of commanders preparing for <kbd>battle</kbd>.</p>
+  </div>
+  <div class="game-box game-yellow" style="flex: 0 0 56%; max-width: 56%;" >
+    <img src="/images/Hamla_thumbnail.jpg" alt="Two players holding illustrated Hamla cards outdoors, with yellow-backed cards laid out on a grey mat between them" style="
+        max-width: 100%; 
+        height: auto; 
+        max-height: 360px; 
+        object-fit: contain; 
+        image-rendering: smooth !important;
+      "/>
+  </div>
+</div>
+
+>Make sure to follow our <kbd class="kbd-green">Kickstarter</kbd> to keep track of our games!

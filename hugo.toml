@@ -76,6 +76,76 @@ relativeURLs = false
         weight = 30
       
 
+  # ------------------------------------------------------------------
+  # Svenska
+  # Every user-facing string below is an ENGLISH PLACEHOLDER. Replace the
+  # text inside the quotes; leave the keys alone.
+  # ------------------------------------------------------------------
+  [languages.sv]
+    weight = 2
+    label = 'Svenska'
+    locale = 'sv-se'
+    title = 'Papelon Studio'
+
+    [languages.sv.params]
+      subtitle = 'Our Kickstarter Landing Page'   # TRANSLATE
+      favicon = '/favicon.png'
+      keywords = ''
+      copyright = ''
+      readMore = 'Read more'                      # TRANSLATE
+      readOtherPosts = 'Read other posts'         # TRANSLATE
+
+    [languages.sv.params.logo]
+      logoText = 'Papelon Studio'
+      logoHomeLink = '/sv/'
+
+    # pageRef rather than url, so Hugo resolves each link to this
+    # language's copy of the page, e.g. /sv/posts/our-games/
+    [[languages.sv.menu.main]]
+      name = "About Us"                           # TRANSLATE
+      pageRef = "/posts/introducing-papelon"
+      weight = 20
+
+    [[languages.sv.menu.main]]
+      name = "Our Games"                          # TRANSLATE
+      pageRef = "/posts/our-games"
+      weight = 30
+
+  # ------------------------------------------------------------------
+  # Espanol
+  # Every user-facing string below is an ENGLISH PLACEHOLDER. Replace the
+  # text inside the quotes; leave the keys alone.
+  # ------------------------------------------------------------------
+  [languages.es]
+    weight = 3
+    label = 'Español'
+    locale = 'es-es'
+    title = 'Papelon Studio'
+
+    [languages.es.params]
+      subtitle = 'Our Kickstarter Landing Page'   # TRANSLATE
+      favicon = '/favicon.png'
+      keywords = ''
+      copyright = ''
+      readMore = 'Read more'                      # TRANSLATE
+      readOtherPosts = 'Read other posts'         # TRANSLATE
+
+    [languages.es.params.logo]
+      logoText = 'Papelon Studio'
+      logoHomeLink = '/es/'
+
+    # pageRef rather than url, so Hugo resolves each link to this
+    # language's copy of the page, e.g. /es/posts/our-games/
+    [[languages.es.menu.main]]
+      name = "About Us"                           # TRANSLATE
+      pageRef = "/posts/introducing-papelon"
+      weight = 20
+
+    [[languages.es.menu.main]]
+      name = "Our Games"                          # TRANSLATE
+      pageRef = "/posts/our-games"
+      weight = 30
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
