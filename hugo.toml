@@ -1,5 +1,5 @@
 baseURL = 'https://papelonstudio.me/'
-languageCode = 'en-us'
+locale = 'en-us'                     # renamed from languageCode in Hugo 0.158
 defaultContentLanguage = 'en'
 title = 'Papelon Studio'
 theme = 're-terminal'
@@ -18,11 +18,14 @@ relativeURLs = false
 # Global logo fallback config
 [params.logo]
   logoText = 'Papelon Studio'
-  logoHomeLink = '/papelon-landingpage/'
+  # Stale GitHub Pages project path until now. It was masked by the
+  # per-language override below, which the multilingual work will restructure,
+  # so correcting it here removes a trap for that change.
+  logoHomeLink = '/'
 
 [languages]
   [languages.en]
-    languageName = 'English'
+    label = 'English'                  # renamed from languageName in Hugo 0.158
     title = 'Papelon Studio'
     
     [languages.en.params]

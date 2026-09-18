@@ -32,7 +32,12 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.128.0"
+          # Pinned, and kept equal to the version used for local development,
+          # so what is tested locally is what production builds. Do not move
+          # this to "latest": the vendored re-terminal theme still uses
+          # libsass, which Hugo deprecated in 0.153 and will remove, and an
+          # unpinned bump would break the build the day that lands.
+          hugo-version: "0.164.0"
           extended: true
 
       - name: Build with Hugo
