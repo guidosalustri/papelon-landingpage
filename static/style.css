@@ -63,6 +63,37 @@ kbd {
 
 
 /* The Giant KBD-Style Frame (Centered on the page) */
+/* Hamla shows its image on the left when the row is side by side. The markup
+   lists the text block first so that the stacked mobile order matches Essom
+   (stats and summary, then image) and the reading order stays consistent for
+   screen readers; row-reverse puts the image back on the left at desktop
+   width. The mobile block sets flex-direction: column !important, which
+   overrides this. */
+/* The stat badges wrap on a narrow column, and a wrapped inline-block expands
+   to the full available width instead of hugging its longest line - the same
+   problem the form title had, so the border stops matching the text.
+
+   Scaling against the viewport does not work here: the text column is full
+   width when stacked but only about 44% of the container when the row is side
+   by side, so the badge wraps both below 390px AND between 768 and 864px.
+   Size it against its own column with a container query instead.
+
+   Measured: the largest one-line size is about (0.05 x column width - 1.85px),
+   which is 10.25px in a 242px column and 13.75px in a 304px one. */
+.games-container > div:not(.game-box) {
+    container-type: inline-size;
+}
+
+.kbd-stats {
+    font-size: clamp(9px, calc(5cqw - 1.85px), 13.6px) !important;
+}
+
+.games-container.games-container--image-left {
+    /* .games-container sets flex-direction: row !important, so this needs the
+       extra class in the selector as well as !important to take effect. */
+    flex-direction: row-reverse !important;
+}
+
 .retro-single-form {
     background-color: #fbf8ef !important; /* Matching warm cream background */
     background-image: 
@@ -303,6 +334,12 @@ kbd {
    RESPONSIVE LAYOUT MECHANICS (Unified Mobile Block)
    ========================================================================== */
 @media (max-width: 768px) {
+    /* Matches the specificity of the row-reverse rule above, which would
+       otherwise keep the Hamla row side by side here. */
+    .games-container.games-container--image-left {
+        flex-direction: column !important;
+    }
+
     .games-container {
         flex-direction: column !important;
         align-items: center !important;
@@ -325,6 +362,13 @@ kbd {
         max-width: 100% !important;
         max-height: none !important;
     }
+    /* container-type: inline-size collapses an element whose width comes from
+       its content, and these columns are shrink-to-fit flex items once the row
+       stacks. A definite width keeps the container query working. */
+    .games-container > div:not(.game-box) {
+        width: 100% !important;
+    }
+
     .game-separator {
         transform: rotate(90deg) !important; /* Cascades down mobile display */
         margin: 10px 0 !important;

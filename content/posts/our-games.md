@@ -29,7 +29,7 @@ For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd
 ### ⌗ Essom
 <div class="games-container">
   <div style="flex: 1;">
-    <p><kbd class="kbd-blue" style="padding: 8px 16px;">Players: 2 | Age: 10+ | Time: 25’</kbd></p>
+    <p><kbd class="kbd-blue kbd-stats" style="padding: 8px 16px;">Players: 2 | Age: 10+ | Time: 25’</kbd></p>
     <h3>Summary.</h3>
     <p>Essom is an <kbd class="kbd-yellow">abstract</kbd> game design by Guido Salustri, a game designer from Argentina. Essom combines <kbd class="kbd-green">hidden information</kbd> with <kbd class="kbd-red">tactical</kbd> depth, where players need to search for and retrieve <kbd class="kbd-purple">hidden tokens</kbd>.</p>
   </div>
@@ -47,7 +47,12 @@ For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd
 ---
 
 ### ⌗ Hamla
-<div class="games-container">
+<div class="games-container games-container--image-left">
+  <div style="flex: 1;">
+    <p><kbd class="kbd-yellow kbd-stats" style="padding: 8px 16px;">Players: 2-6 | Age: 8+ | Time: 15’</kbd></p>
+    <h3>Summary.</h3>
+    <p>Hamla is a <kbd class="kbd-blue">card</kbd> game design by Márton Bodrog, a game designer from Hungary. Coming from the world of Trutina, Hamla is a game of cunning, <kbd class="kbd-pink">bluffing</kbd> and a bit of luck, where you take the role of commanders preparing for <kbd>battle</kbd>.</p>
+  </div>
   <div class="game-box game-yellow" style="flex: 0 0 56%; max-width: 56%;" >
     <img src="/images/Hamla_thumbnail.jpg" alt="Two players holding illustrated Hamla cards outdoors, with yellow-backed cards laid out on a grey mat between them" style="
         max-width: 100%; 
@@ -56,11 +61,6 @@ For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd
         object-fit: contain; 
         image-rendering: smooth !important;
       "/>
-  </div>
-  <div style="flex: 1;">
-    <p><kbd class="kbd-yellow" style="padding: 8px 16px;">Players: 2-6 | Age: 8+ | Time: 15’</kbd></p>
-    <h3>Summary.</h3>
-    <p>Hamla is a <kbd class="kbd-blue">card</kbd> game design by Márton Bodrog, a game designer from Hungary. Coming from the world of Trutina, Hamla is a game of cunning, <kbd class="kbd-pink">bluffing</kbd> and a bit of luck, where you take the role of commanders preparing for <kbd>battle</kbd>.</p>
   </div>
 </div>
 
