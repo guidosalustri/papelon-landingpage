@@ -75,7 +75,7 @@ You can enable it via config-->
 ## ⌗ The Team
 
 <div class="game-box game-yellow " style="flex: 0 0 75%; max-width: 75%; margin-top: 45px; margin-left: auto; margin-right: auto;">
-    <img src="/images/team.png" alt="The three members of Papelon Studio, cut out and tinted in cyan, red and pink, standing in front of a wooden building in Visby" style="
+    <img src="/images/team.jpg" alt="The three members of Papelon Studio, cut out and tinted in cyan, red and pink, standing in front of a wooden building in Visby" style="
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
