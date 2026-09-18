@@ -300,6 +300,36 @@ kbd {
         transform: rotate(90deg) !important; /* Cascades down mobile display */
         margin: 10px 0 !important;
     }
+
+    /* The signup form carries inline flex/max-width of 60%, which was tuned
+       for the 864px desktop container. At phone widths that leaves the email
+       field about 130px wide - too narrow to show a typed address - and wraps
+       the title onto three lines. Inline styles outrank stylesheet rules, so
+       these need !important. */
+    #kickstarter-form {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    /* The -85px pull on the Kickstarter logo was measured against the taller
+       desktop form; at phone widths it overlaps the submit button. */
+    #kickstarter-form img {
+        max-width: 58% !important;
+        margin: -40px auto -10px !important;
+    }
+
+    /* Minimum comfortable tap target is 44px; the button renders at 42px
+       here once the mobile font size kicks in. */
+    #kickstarter-form .submit-btn {
+        min-height: 44px !important;
+    }
+
+    /* The theme sets white-space: nowrap on the footer copyright, forcing
+       it onto one 353px line. That is wider than a 320px phone and was the
+       only source of horizontal scrolling on the whole site. */
+    .footer .copyright span {
+        white-space: normal !important;
+    }
 }
 
 /* ==========================================================================
