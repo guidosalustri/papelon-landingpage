@@ -213,13 +213,19 @@ kbd {
    single posts with :not(.on-list) so the post list on the homepage keeps
    its original rhythm between entries.
    ========================================================================== */
+/* The signup form carries an inline margin-top: -25px, which leaves it almost
+   touching the menu. Remove the pull so it sits clear of the navigation. */
+#kickstarter-form {
+    margin-top: 0 !important;
+}
+
 .post:not(.on-list) {
     margin-top: 0 !important;
     padding-top: 0 !important;
 }
 
 .post:not(.on-list) .post-title {
-    margin-top: 8px !important;
+    margin-top: 28px !important;
 }
 
 /* ==========================================================================
