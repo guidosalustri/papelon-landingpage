@@ -23,7 +23,7 @@ You can enable it via config-->
 <!-- ROW 1: Framed Image Left | Plain Text Right -->
 <div class="games-container">
   <div class="game-box game-purple" style="flex: 0 0 60%; max-width: 60%;" >
-        <img src="/images/14.jpg" style="
+        <img src="/images/14.jpg" alt="Snow-covered Visby in winter, with birds flying over the duck pond below the medieval town wall" style="
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
@@ -44,7 +44,7 @@ You can enable it via config-->
     <p><kbd class="kbd-yellow">Print-and-play</kbd> makes games <kbd class="kbd-yellow">affordable</kbd>, instantly <kbd class="kbd-yellow">accessible</kbd> to everyone, and uniquely personal. You don’t just play the game, you spend time <kbd class="kbd-yellow">crafting</kbd> it, too. Think of it like IKEA: you get the pride of saying, 'I made this.' <kbd class="kbd-yellow">Go, go, PnP!</kbd></p>
   </div>
   <div class="game-box game-yellow" style="flex: 0 0 55%; max-width: 55%;">
-        <img src="/images/41.jpg" style="
+        <img src="/images/41.jpg" alt="Visby cathedral, its two black spires rising above autumn trees, with people walking along a path below" style="
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
@@ -57,7 +57,7 @@ You can enable it via config-->
 <!-- ROW 3: Framed Image Left | Plain Text Right -->
 <div class="games-container">
   <div class="game-box game-pink" style="flex: 0 0 55%; max-width: 55%;">
-        <img src="/images/36.jpg" style="
+        <img src="/images/36.jpg" alt="Rooftops and medieval church ruins of Visby overlooking the Baltic Sea in golden evening light" style="
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
@@ -75,7 +75,7 @@ You can enable it via config-->
 ## ⌗ The Team
 
 <div class="game-box game-yellow " style="flex: 0 0 75%; max-width: 75%; margin-top: 45px; margin-left: auto; margin-right: auto;">
-    <img src="/images/team.png" style="
+    <img src="/images/team.png" alt="The three members of Papelon Studio, cut out and tinted in cyan, red and pink, standing in front of a wooden building in Visby" style="
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 

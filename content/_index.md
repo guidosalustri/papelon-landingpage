@@ -1,5 +1,9 @@
 ---
 title: "Welcome to Papelon"
+# Open Graph share-card image. The homepage layout renders covers inside the
+# posts loop only, never for the page itself, so this changes the link
+# preview and nothing visible on the page.
+cover: "images/social-card.png"
 ---
 
 
@@ -9,7 +13,7 @@ title: "Welcome to Papelon"
   <!--<input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">-->
 
 <!-- The 'onsubmit' part freezes the form so it never leaves the page -->
-<form class="retro-single-form" id="kickstarter-form" style="flex: 0 0 60%; max-width: 60%; margin-top: -25px; margin-left: auto; margin-right: auto;">
+<form class="retro-single-form" id="kickstarter-form" action="https://api.web3forms.com/submit" method="POST" style="flex: 0 0 60%; max-width: 60%; margin-top: -25px; margin-left: auto; margin-right: auto;">
   <!-- 1. YOUR WEB3FORMS ACCESS KEY (Paste your key here) -->
   <input type="hidden" name="access_key" value="110d46e0-a47e-42bf-b904-a856eca735e7">
 
@@ -28,9 +32,9 @@ title: "Welcome to Papelon"
   <button type="submit" class="submit-btn" id="submit-btn">Follow</button>
 
   <!-- Message placeholder (shows thank you or error message here) -->
-  <p id="form-result" style="margin-top: 10px; font-weight: bold; min-height: 1.5em;">&nbsp;</p>
+  <p id="form-result" role="status" aria-live="polite" style="margin-top: 10px; font-weight: bold; min-height: 1.5em;">&nbsp;</p>
 
-  <img src="/images/Kickstarter-logo.png" style="
+  <img src="/images/Kickstarter-logo.png" alt="Kickstarter" style="
         max-width: 65%; 
         height: auto; 
         max-height: 360px; 
@@ -43,46 +47,54 @@ title: "Welcome to Papelon"
 </form>
 
 <script>
-  const form = document.getElementById('kickstarter-form');
-  const result = document.getElementById('form-result');
-  const button = document.getElementById('submit-btn');
+  const form = document.getElementById("kickstarter-form");
+  const result = document.getElementById("form-result");
+  const button = document.getElementById("submit-btn");
 
-  form.addEventListener('submit', function(e) {
+  // How long to wait before giving up. Without this the request can hang
+  // indefinitely, leaving the button disabled and the user staring at
+  // "Submitting..." with no way to retry.
+  const TIMEOUT_MS = 10000;
+
+  form.addEventListener("submit", function (e) {
     e.preventDefault();
-    
-    // Feedback while sending
+
     button.disabled = true;
+    result.style.color = "";
     result.innerText = "Submitting...";
 
-    const formData = new FormData(form);
-    const json = JSON.stringify(Object.fromEntries(formData));
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
 
-    fetch('https://api.web3forms.com/submit', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-      },
-      body: json
+    const json = JSON.stringify(Object.fromEntries(new FormData(form)));
+
+    fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: json,
+      signal: controller.signal
     })
-    .then(async (response) => {
-      let res = await response.json();
-      if (response.status === 200) {
-        result.style.color = "green";
-        result.innerText = "Thanks for subscribing! 🎉";
-        form.reset();
-      } else {
+      .then(async (response) => {
+        const res = await response.json().catch(() => ({}));
+        if (response.ok) {
+          result.style.color = "green";
+          result.innerText = "Thanks for subscribing! 🎉";
+          form.reset();
+        } else {
+          result.style.color = "red";
+          result.innerText = res.message || "Something went wrong. Please try again.";
+        }
+      })
+      .catch((error) => {
         result.style.color = "red";
-        result.innerText = res.message || "Something went wrong.";
-      }
-    })
-    .catch(error => {
-      result.style.color = "red";
-      result.innerText = "Error sending message!";
-    })
-    .finally(() => {
-      button.disabled = false;
-    });
+        result.innerText = error.name === "AbortError"
+          ? "That is taking longer than expected. Please check your connection and try again."
+          : "Could not reach the server. Please try again.";
+      })
+      .finally(() => {
+        clearTimeout(timer);
+        button.disabled = false;
+      });
   });
 </script>
 
@@ -104,7 +116,7 @@ title: "Welcome to Papelon"
     justify-content: center;
     padding: 15px;
   ">
-    <img src="/images/hamla-logo.png" style="
+    <img src="/images/hamla-logo.png" alt="Hamla" style="
       max-width: 85%; 
       max-height: 65%; 
       width: auto; 
@@ -126,7 +138,7 @@ title: "Welcome to Papelon"
     justify-content: center;
     padding: 15px;
   ">
-    <img src="/images/logos/essom_3-05.png" style="
+    <img src="/images/logos/essom_3-05.png" alt="Essom" style="
       max-width: 85%; 
       max-height: 100%; 
       width: auto; 

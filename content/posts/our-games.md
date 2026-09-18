@@ -14,7 +14,7 @@ For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd
 <!--more-->
 
 <div class="game-box game-green " style="flex: 0 0 80%; max-width: 80%; margin: 0 auto;">
-    <img src="/images/cover-ourgames.png" style="
+    <img src="/images/cover-ourgames.png" alt="Two game designers on stage holding flowers at the Gotland Game Conference 2025 award ceremony, with musicians and an audience around them" style="
         max-width: 96%; 
         height: auto; 
         max-height: 360px; 
@@ -34,7 +34,7 @@ For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd
     <p>Essom is an <kbd class="kbd-yellow">abstract</kbd> game design by Guido Salustri, a game designer from Argentina. Essom combines <kbd class="kbd-green">hidden information</kbd> with <kbd class="kbd-red">tactical</kbd> depth, where players need to search for and retrieve <kbd class="kbd-purple">hidden tokens</kbd>.</p>
   </div>
   <div class="game-box game-blue" style="flex: 0 0 57%; max-width: 57%;">
-        <img src="/images/essom1.png" style="
+        <img src="/images/essom1.png" alt="Two players facing each other across the Essom board, a wooden grid of holes holding blue and orange cone-shaped pieces" style="
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
@@ -49,7 +49,7 @@ For our first kickstarter we feature two games: <kbd class="kbd-blue">Hamla</kbd
 ### ⌗ Hamla
 <div class="games-container">
   <div class="game-box game-yellow" style="flex: 0 0 56%; max-width: 56%;" >
-    <img src="/images/Hamla_thumbnail.png" style="
+    <img src="/images/Hamla_thumbnail.png" alt="Two players holding illustrated Hamla cards outdoors, with yellow-backed cards laid out on a grey mat between them" style="
         max-width: 100%; 
         height: auto; 
         max-height: 360px; 
