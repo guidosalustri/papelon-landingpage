@@ -142,8 +142,12 @@ kbd {
     font-size: 1.1rem;
     font-weight: bold;
     padding: 12px;
+    /* Note: these two have no effect. Markdown wraps the button in a <p>,
+       and that <p> is a shrink-to-fit flex item, so 100% resolves against the
+       button-sized wrapper rather than the form. The button therefore hugs its
+       label at about 93px, which is the intended look. */
     width: 100%;
-    max-width: 360px; /* Matches the input width perfectly */
+    max-width: 360px;
     cursor: pointer;
     text-transform: capitalize;
     transition: all 0.15s ease-in-out;
@@ -302,7 +306,8 @@ kbd {
        mobile they grow past their desktop size: 380px wide at a 600px viewport
        versus about 213px on desktop. Cap them in absolute terms instead. */
     .games-container .game-box img {
-        max-width: 260px !important;
+        /* min() so the absolute cap never overrides the box at narrow widths */
+        max-width: min(85%, 260px) !important;
         max-height: 150px !important;
     }
     .game-separator {
@@ -331,17 +336,22 @@ kbd {
         margin: -40px auto -10px !important;
     }
 
-    /* Minimum comfortable tap target is 44px; the button renders at 42px
-       here once the mobile font size kicks in. */
-    #kickstarter-form .submit-btn {
-        min-height: 44px !important;
-    }
 
     /* The theme sets white-space: nowrap on the footer copyright, forcing
        it onto one 353px line. That is wider than a 320px phone and was the
        only source of horizontal scrolling on the whole site. */
     .footer .copyright span {
         white-space: normal !important;
+    }
+
+    /* Theme pagination buttons are flex items whose label is white-space:
+       nowrap. A flex item will not shrink below its min-content width by
+       default, so instead of ellipsising, the post titles pushed the
+       pagination 30px wider than the page at 320-360px. min-width: 0 lets
+       them shrink so the ellipsis the theme already set can do its job. */
+    .pagination__buttons .button,
+    .pagination__buttons .button a {
+        min-width: 0 !important;
     }
 }
 
