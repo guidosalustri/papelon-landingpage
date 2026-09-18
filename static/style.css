@@ -215,6 +215,43 @@ kbd {
    ========================================================================== */
 /* The signup form carries an inline margin-top: -25px, which leaves it almost
    touching the menu. Remove the pull so it sits clear of the navigation. */
+/* ==========================================================================
+   GAME LOGO BOXES
+   The two homepage boxes hold brand marks rather than photographs, so the
+   fill-the-frame treatment that suits the photos looks wrong on them: the
+   logos filled their boxes edge to edge when stacked while floating in a sea
+   of padding when side by side, so the two layouts did not look related.
+
+   Give them their own box type: a fixed aspect ratio so both boxes are the
+   same shape at every width, even padding, and contain sizing so each logo is
+   capped by the same content height regardless of its own proportions.
+   ========================================================================== */
+.games-container .game-box--logo {
+    aspect-ratio: 16 / 10 !important;
+    height: auto !important;
+    padding: 0 !important;
+    position: relative !important;
+}
+
+.games-container .game-box--logo img {
+    /* Taken out of flow so the picture cannot push the box past its aspect
+       ratio - which is what left the two boxes different heights when
+       stacked. The inset gives even breathing room on all four sides and
+       object-fit letterboxes each mark inside it, so both logos are capped
+       by the same area regardless of their own proportions. */
+    position: absolute !important;
+    top: 18px !important;
+    left: 18px !important;
+    /* Explicit size, not right/bottom offsets: for a replaced element those
+       offsets are ignored when width and height are auto, so the image drew
+       at its natural 1038px and overflowed the frame. */
+    width: calc(100% - 36px) !important;
+    height: calc(100% - 36px) !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: contain !important;
+}
+
 #kickstarter-form {
     margin-top: 0 !important;
 }

@@ -107,45 +107,15 @@ cover: "images/social-card.png"
 <div class="games-container" style="display: flex; align-items: center; justify-content: center;">
 
   <!-- Left Game Box -->
-  <div class="game-box game-yellow" style="
-    flex: 0 0 35%; 
-    max-width: 35%; 
-    height: 220px; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-    padding: 15px;
-  ">
-    <img src="/images/logos/hamla-logo.png" alt="Hamla" style="
-      max-width: 85%; 
-      max-height: 65%; 
-      width: auto; 
-      height: auto; 
-      object-fit: contain; 
-      image-rendering: smooth !important;
-    "/>
+  <div class="game-box game-yellow game-box--logo" style="flex: 0 0 35%; max-width: 35%;">
+    <img src="/images/logos/hamla-logo.png" alt="Hamla" />
   </div>
 
   <div class="game-separator separator-green" style="margin: 0 15px;">+</div>
   
   <!-- Right Game Box -->
-  <div class="game-box game-blue" style="
-    flex: 0 0 35%; 
-    max-width: 35%; 
-    height: 220px; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-    padding: 15px;
-  ">
-    <img src="/images/logos/essom_3-05.png" alt="Essom" style="
-      max-width: 85%; 
-      max-height: 100%; 
-      width: auto; 
-      height: auto; 
-      object-fit: contain; 
-      image-rendering: smooth !important;
-    "/>
+  <div class="game-box game-blue game-box--logo" style="flex: 0 0 35%; max-width: 35%;">
+    <img src="/images/logos/essom_3-05.png" alt="Essom" />
   </div>
 
 </div>
