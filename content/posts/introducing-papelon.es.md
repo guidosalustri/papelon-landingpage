@@ -54,7 +54,7 @@ Somos un estudio de juegos de mesa de <kbd class="kbd-green">3 personas</kbd> co
 <div class="games-container">
   <div style="flex: 1;">
     <h2>El poder oculto del PnP</h2>
-    <p>El <kbd class="kbd-yellow">print-and-play</kbd> hace que los juegos sean <kbd class="kbd-yellow">económicos</kbd>, personales y <kbd class="kbd-yellow">accesibles</kbd> al instante para cualquiera. No solo juegas el juego: también pasas tiempo <kbd class="kbd-yellow">armándolo</kbd>. Es como IKEA: te queda el orgullo de decir «esto lo hice yo». <kbd class="kbd-yellow">¡Vamos arriba, PnP!</kbd></p>
+    <p>El <kbd class="kbd-yellow">print-and-play</kbd> hace que los juegos sean <kbd class="kbd-yellow">económicos</kbd>, personales y <kbd class="kbd-yellow">accesibles</kbd>, para cualquiera y al instante. No solo juegas el juego: también pasas tiempo <kbd class="kbd-yellow">armándolo</kbd>. Es como IKEA: te queda el orgullo de decir «esto lo hice yo». <kbd class="kbd-yellow">¡Vamos arriba, PnP!</kbd></p>
   </div>
   <div class="game-box game-yellow" style="flex: 0 0 55%; max-width: 55%;">
         <img src="/images/41.jpg" alt="La catedral de Visby, con sus dos torres negras asomando entre los árboles de otoño y gente caminando por un sendero" style="
@@ -101,9 +101,9 @@ Somos un estudio de juegos de mesa de <kbd class="kbd-green">3 personas</kbd> co
 >
 >– <kbd class="kbd-purple">Majo 🦙 </kbd>: diseña juegos de mesa desde Perú, con foco en desarrollo, edición y localización.
 >
->– <kbd class="kbd-blue">Guido 🧉 </kbd>: desde la biología al desarrollo de juegos; de Argentina, trabajando en Suecia.
+>– <kbd class="kbd-blue">Guido 🧉 </kbd>: desde la biología al desarrollo de juegos; de Argentina a Suecia.
 >
->– <kbd class="kbd-red">Joel 🦌</kbd>: de Suecia🫎, siempre llega tarde a las reuniones, pero solo para que el resto del equipo se sienta como en casa.
+>– <kbd class="kbd-red">Joel 🦌</kbd>: de Suecia🫎, llega siempre tarde a todas las reuniones, pero solo para que el resto del equipo se sienta como en casa.
 >
 > ¡Sigue nuestro <kbd class="kbd-green">Kickstarter</kbd> para ayudar a que el estudio crezca! 🚀
 
