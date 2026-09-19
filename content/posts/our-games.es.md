@@ -20,7 +20,7 @@ cover: "images/ourgames1.jpg"
      =================================================================== -->
 
 ### ⌗ Essom + Hamla
-Para nuestro primer Kickstarter presentamos dos juegos: <kbd class="kbd-blue">Hamla</kbd> y <kbd>Essom</kbd>. Los dos se hicieron en Gotland y comparten el <kbd class="kbd-pink">premio</kbd> al Mejor Diseño de Juego en la Gotland Game Conference 2025. Como lo cuentan sus diseñadores: «Somos <kbd class="kbd-yellow">amigos</kbd> que nos animamos entre nosotros a presentar nuestros juegos en la conferencia, así que nos parece un cierre muy justo <kbd class="kbd-red">compartir</kbd> el premio».
+Para nuestro primer Kickstarter estamos presentando dos juegos: <kbd class="kbd-blue">Hamla</kbd> y <kbd>Essom</kbd>. Los dos se hicieron en Gotland y comparten el <kbd class="kbd-pink">premio</kbd> al “Best Game Design” en la Gotland Game Conference 2025. En palabras de sus diseñadores: «Somos <kbd class="kbd-yellow">amigos</kbd> que nos incentivamos mutuamente a presentar nuestros juegos en la conferencia, así que fue una sorpresa muy grata poder <kbd class="kbd-red">compartir</kbd> el premio al final».
 
 ¿Con <kbd class="kbd-purple">curiosidad</kbd> por los juegos?
 

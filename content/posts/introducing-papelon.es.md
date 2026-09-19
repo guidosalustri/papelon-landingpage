@@ -25,7 +25,7 @@ cover: "images/cover-studio.jpg"
 
 <!-- coverCaption: "The first light theme by community member trviph" -->
 ### ⌗ Sobre nosotros
-Somos un estudio de juegos de mesa de <kbd class="kbd-green">3 personas</kbd> con base en <kbd class="kbd-yellow">Visby</kbd>, la histórica ciudad isleña de Gotland (justo donde aprendimos a hacer juegos). Nos encanta colaborar con diseñadores y artistas y, sobre todo, queremos que más gente <kbd class="kbd-blue">juegue</kbd> y <kbd class="kbd-red">cree</kbd> juegos. ¡Por eso nos parece tan genial el <kbd class="kbd-pink">print-and-play</kbd>!
+Somos un estudio de juegos de mesa de <kbd class="kbd-green">3 personas</kbd> con base en la ciudad medieval de <kbd class="kbd-yellow">Visby</kbd>, en la isla de Gotland (que es el mismo lugar donde aprendimos a hacer juegos). Nos encanta colaborar con diseñadores y artistas y, sobre todo, queremos que más gente <kbd class="kbd-blue">juegue</kbd> y <kbd class="kbd-red">cree</kbd> juegos. ¡Por eso nos parece tan genial el formato <kbd class="kbd-pink">print-and-play</kbd>!
 
 ¡Acompáñanos en un recorrido de 2 minutos por <kbd>Gotland</kbd> para conocer más sobre el estudio y ver hacia dónde vamos!
 
