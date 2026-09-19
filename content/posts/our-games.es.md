@@ -64,7 +64,7 @@ Para nuestro primer Kickstarter estamos presentando dos juegos: <kbd class="kbd-
   <div style="flex: 1;">
     <p><kbd class="kbd-yellow kbd-stats" style="padding: 8px 16px;">Jugadores: 2-6 | Edad: 8+ | Tiempo: 15’</kbd></p>
     <h3>Resumen.</h3>
-    <p>Hamla es un juego de <kbd class="kbd-blue">cartas</kbd> diseñado por Márton Bodrog, de Hungría. Ambientado en el mundo de Trutina, es un juego de astucia, <kbd class="kbd-pink">engaño</kbd> y un poco de suerte, donde se toma el rol de un comandante que se prepara para la <kbd>batalla</kbd>.</p>
+    <p>Hamla es un juego de <kbd class="kbd-blue">cartas</kbd> diseñado por Márton Bodrog, de Hungría. Ambientado en el mundo de Trutina, es un juego de astucia, <kbd class="kbd-pink">engaño</kbd> y un poco de suerte, donde tomas el rol de un comandante que se prepara para la <kbd>batalla</kbd>.</p>
   </div>
   <div class="game-box game-yellow" style="flex: 0 0 56%; max-width: 56%;" >
     <img src="/images/Hamla_thumbnail.jpg" alt="Dos personas sosteniendo cartas ilustradas de Hamla al aire libre, con cartas de dorso amarillo sobre un mantel gris" style="
