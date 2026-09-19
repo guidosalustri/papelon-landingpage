@@ -31,7 +31,7 @@ Somos un estudio de juegos de mesa de <kbd class="kbd-green">3 personas</kbd> co
 
 <!--more-->
 
-### ⌗ El recorrido
+### ⌗ El “tour”
 
 <!-- ROW 1: Framed Image Left | Plain Text Right -->
 <div class="games-container">
@@ -45,8 +45,8 @@ Somos un estudio de juegos de mesa de <kbd class="kbd-green">3 personas</kbd> co
       "/>
   </div>
   <div style="flex: 1;">
-    <h2>La marea que sube levanta todos los barcos</h2>
-    <p>Queremos <kbd class="kbd-purple">apoyar</kbd> al <kbd class="kbd-purple">talento</kbd> emergente y diverso que se suma a la <kbd class="kbd-purple">industria</kbd> de los juegos de mesa. Es <kbd class="kbd-purple">simple:</kbd> mientras más diversa sea la gente que crea juegos, más diversos serán los juegos que se crean <kbd class="kbd-purple">;)</kbd></p>
+    <h2>Cuando la marea sube, levanta todos los barcos</h2>
+    <p>Queremos <kbd class="kbd-purple">apoyar</kbd> al <kbd class="kbd-purple">talento</kbd> emergente y diverso que se suma a la <kbd class="kbd-purple">industria</kbd> de los juegos de mesa. La idea es <kbd class="kbd-purple">simple:</kbd> mientras más diversa sea la gente que crea juegos, más variedad tendrán los juegos creados <kbd class="kbd-purple">;)</kbd></p>
   </div>
 </div>
 
@@ -54,7 +54,7 @@ Somos un estudio de juegos de mesa de <kbd class="kbd-green">3 personas</kbd> co
 <div class="games-container">
   <div style="flex: 1;">
     <h2>El poder oculto del PnP</h2>
-    <p>El <kbd class="kbd-yellow">print-and-play</kbd> hace que los juegos sean <kbd class="kbd-yellow">económicos</kbd>, <kbd class="kbd-yellow">accesibles</kbd> al instante para cualquiera, y únicos. No solo juegas el juego: también pasas un rato <kbd class="kbd-yellow">armándolo</kbd>. Piénsalo como IKEA: te queda el orgullo de decir «esto lo hice yo». <kbd class="kbd-yellow">¡Vamos, PnP!</kbd></p>
+    <p>El <kbd class="kbd-yellow">print-and-play</kbd> hace que los juegos sean <kbd class="kbd-yellow">económicos</kbd>, personales y <kbd class="kbd-yellow">accesibles</kbd> al instante para cualquiera. No solo juegas el juego: también pasas tiempo <kbd class="kbd-yellow">armándolo</kbd>. Es como IKEA: te queda el orgullo de decir «esto lo hice yo». <kbd class="kbd-yellow">¡Vamos arriba, PnP!</kbd></p>
   </div>
   <div class="game-box game-yellow" style="flex: 0 0 55%; max-width: 55%;">
         <img src="/images/41.jpg" alt="La catedral de Visby, con sus dos torres negras asomando entre los árboles de otoño y gente caminando por un sendero" style="
@@ -99,16 +99,16 @@ Somos un estudio de juegos de mesa de <kbd class="kbd-green">3 personas</kbd> co
 
 >Somos <kbd>egresados</kbd> del Departamento de Diseño de Juegos de la Universidad de Uppsala, Campus Gotland. Nuestro equipo:
 >
->-- <kbd class="kbd-purple">Majo 🦙 </kbd>: diseña juegos de mesa desde Perú, con foco en desarrollo, edición y localización.
+>– <kbd class="kbd-purple">Majo 🦙 </kbd>: diseña juegos de mesa desde Perú, con foco en desarrollo, edición y localización.
 >
->-- <kbd class="kbd-blue">Guido 🧉 </kbd>: llegó desde la biología al desarrollo de juegos; de Argentina, trabajando en Suecia.
+>– <kbd class="kbd-blue">Guido 🧉 </kbd>: desde la biología al desarrollo de juegos; de Argentina, trabajando en Suecia.
 >
->-- <kbd class="kbd-red">Joel 🦌</kbd>: de Suecia🫎, siempre llega tarde a las reuniones, pero solo para que el resto del equipo se sienta como en casa.
+>– <kbd class="kbd-red">Joel 🦌</kbd>: de Suecia🫎, siempre llega tarde a las reuniones, pero solo para que el resto del equipo se sienta como en casa.
 >
 > ¡Sigue nuestro <kbd class="kbd-green">Kickstarter</kbd> para ayudar a que el estudio crezca! 🚀
 
 
 <div style="font-size: 0.9em; opacity: 0.85; margin-top: 2rem; line-height: 1.6;">
   <span style="display: inline-block; font-size: 1.25em; margin-right: 4px;">📸</span>
-  <strong>Créditos de las fotos:</strong> fotografía de <kbd class="kbd-yellow">Hui Yuan</kbd> vía <a href="https://www.instagram.com/rita_yhui?igsh=bHZncmtmeTE1MWho" target="_blank">Instagram</a>
+  <strong>Créditos:</strong> fotografía de <kbd class="kbd-yellow">Hui Yuan</kbd> vía <a href="https://www.instagram.com/rita_yhui?igsh=bHZncmtmeTE1MWho" target="_blank">Instagram</a>
 </div>
