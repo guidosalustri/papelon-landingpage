@@ -111,7 +111,7 @@ cover: "images/social-card.png"
 </script>
 
 # ⌗ Bienvenidos a Papelon
->¡Hola! Somos un grupo de <kbd class="kbd-yellow">diseñadores de juegos</kbd> de distintas partes del mundo, que terminamos en una isla de piedra caliza en medio del <kbd class="kbd-red">mar Báltico</kbd>. Juntos llevamos un pequeño <kbd class="kbd-blue">estudio de juegos de mesa</kbd> que busca hacer el hobby más <kbd class="kbd-pink">accesible</kbd>, tanto para diseñadores como para jugadores.
+>¡Hola! Somos un grupo de <kbd class="kbd-yellow">diseñadores de juegos</kbd> de distintas partes del mundo, que terminamos en una isla de piedra caliza en medio del <kbd class="kbd-red">mar Báltico</kbd>. Juntos llevamos adelante un pequeño <kbd class="kbd-blue">estudio de juegos de mesa</kbd> que busca hacer el hobby más <kbd class="kbd-pink">accesible</kbd>, tanto para diseñadores como para jugadores.
 >
 >¡Ayúdanos a dar vida a nuestros <kbd class="kbd-purple">dos primeros juegos</kbd> en <kbd>Kickstarter</kbd>! Y si te interesa saber más sobre el estudio o sobre lo que estamos creando, abajo puedes encontrar más info <kbd class="kbd-green">:D</kbd> 
 
