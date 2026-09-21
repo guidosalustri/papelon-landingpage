@@ -414,6 +414,15 @@ kbd {
         max-width: 380px !important;
     }
 
+    /* The two logo boxes are pure branding, not content. Once the row
+       stacks they sit one above the other with the separator between, and
+       at the full 380px that pushed the page down further than the text
+       around them warranted. Cap them smaller here; the 16/10 ratio above
+       is untouched, so they scale down rather than change shape. */
+    .game-box--logo {
+        max-width: 240px !important;
+    }
+
     /* A frame should fit what it contains. The inline styles cap these images
        by percentage (85%) and by height (360px), which on a stacked mobile
        layout leaves the image far narrower than its box and produces dead
