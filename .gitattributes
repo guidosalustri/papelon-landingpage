@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# CNAME is read by GitHub Pages to confirm the custom domain. It is published
+# verbatim from static/, so it must stay LF - a CRLF checkout on Windows would
+# put a stray carriage return in the domain name.
+static/CNAME text eol=lf
