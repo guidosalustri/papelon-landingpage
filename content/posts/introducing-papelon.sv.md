@@ -43,7 +43,7 @@ Följ med på en rundtur på <kbd>Gotland</kbd> på 2 minuter, så får du veta 
   </div>
   <div style="flex: 1;">
     <h2>Stigande tidvatten lyfter alla båtar</h2>
-    <p>Vi vill <kbd class="kbd-purple">stötta</kbd> ny och varierad <kbd class="kbd-purple">talang</kbd> som kommer in i <kbd class="kbd-purple">brädspelsbranschen</kbd>. Det är <kbd class="kbd-purple">enkelt:</kbd> fler olika slags spelskapare ger fler olika slags spel <kbd class="kbd-purple">;)</kbd></p>
+    <p>Vi vill <kbd class="kbd-purple">stötta</kbd> ny <kbd class="kbd-purple">talang</kbd> från olika bakgrunder som kommer in i <kbd class="kbd-purple">brädspelsbranschen</kbd>. Det är <kbd class="kbd-purple">enkelt:</kbd> mer olika spelskapare ger mer olikt skapade spel <kbd class="kbd-purple">;)</kbd></p>
   </div>
 </div>
 
@@ -51,7 +51,7 @@ Följ med på en rundtur på <kbd>Gotland</kbd> på 2 minuter, så får du veta 
 <div class="games-container">
   <div style="flex: 1;">
     <h2>Den dolda kraften i PnP</h2>
-    <p><kbd class="kbd-yellow">Print-and-play</kbd> gör spel <kbd class="kbd-yellow">prisvärda</kbd>, direkt <kbd class="kbd-yellow">tillgängliga</kbd> för alla och helt personliga. Du spelar inte bara spelet, du lägger också tid på att <kbd class="kbd-yellow">bygga</kbd> det. Tänk IKEA: du får stoltheten i att säga ”det här har jag gjort”. <kbd class="kbd-yellow">Heja, heja, PnP!</kbd></p>
+    <p><kbd class="kbd-yellow">Print-and-play</kbd> gör spel <kbd class="kbd-yellow">prisvärda</kbd>, direkt <kbd class="kbd-yellow">tillgängliga</kbd> för alla och samtidigt så personliga. Du spelar inte bara spelet, du lägger också tid på att <kbd class="kbd-yellow">bygga</kbd> det. Tänk IKEA: du kan vara nöjd med att ”det här var det jag som byggde”. <kbd class="kbd-yellow">Heja, heja, PnP!</kbd></p>
   </div>
   <div class="game-box game-yellow" style="flex: 0 0 55%; max-width: 55%;">
         <img src="/images/41.jpg" alt="Visby domkyrka, med sina två svarta torn ovanför höstens träd och människor som går på en stig nedanför" style="
@@ -77,7 +77,7 @@ Följ med på en rundtur på <kbd>Gotland</kbd> på 2 minuter, så får du veta 
   </div>
   <div style="flex: 1;">
     <h2>Inget nytt under solen</h2>
-    <p><kbd class="kbd-pink">Brädspel</kbd> är fantastiska för att ha kul, men de kan också skapa ett <kbd class="kbd-pink">tryggt rum</kbd> som främjar integration, känsloreglering och kognitiva färdigheter. Det ger så mycket <kbd class="kbd-pink">spännande</kbd> utrymme att utforska och skapa!</p>
+    <p><kbd class="kbd-pink">Brädspel</kbd> är fantastiska för att ha kul, men de kan också skapa ett <kbd class="kbd-pink">tryggt utrymme</kbd> som främjar integration, känsloreglering och kognitiva färdigheter. Det ger så mycket <kbd class="kbd-pink">spännande</kbd> rum att utforska och skapa!</p>
   </div>
 </div>
 
@@ -96,13 +96,13 @@ Följ med på en rundtur på <kbd>Gotland</kbd> på 2 minuter, så får du veta 
 
 >Vi är <kbd>alumner</kbd> från institutionen för speldesign vid Uppsala universitet, Campus Gotland. Vårt team:
 >
->-- <kbd class="kbd-purple">Majo 🦙 </kbd>: speldesigner från Peru, inriktad på utveckling, redigering och lokalisering av brädspel.
+>– <kbd class="kbd-purple">Majo 🦙 </kbd>: speldesigner från Peru, inriktad på redigering, utveckling och lokalisering av brädspel.
 >
->-- <kbd class="kbd-blue">Guido 🧉 </kbd>: biolog från Argentina som gör speldesign i Sverige.
+>– <kbd class="kbd-blue">Guido 🧉 </kbd>: biolog från Argentina som kör spelutveckling i Sverige.
 >
->-- <kbd class="kbd-red">Joel 🦌</kbd>: från Sverige🫎, alltid sen till möten, men bara för att alla i teamet ska känna sig som hemma.
+>– <kbd class="kbd-red">Joel 🦌</kbd>: från Sverige🫎, alltid sen till möten, men bara för att alla i teamet ska känna sig hemma.
 >
-> Följ vår <kbd class="kbd-green">Kickstarter</kbd> och hjälp studion att växa! 🚀
+> Följ vår <kbd class="kbd-green">Kickstarter</kbd> och hjälp vår studio växa! 🚀
 
 
 <div style="font-size: 0.9em; opacity: 0.85; margin-top: 2rem; line-height: 1.6;">
