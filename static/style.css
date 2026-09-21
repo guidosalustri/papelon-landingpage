@@ -256,6 +256,26 @@ kbd {
     margin-top: 0 !important;
 }
 
+/* ==========================================================================
+   HOMEPAGE: CONTENT INTO POST LIST
+   The gap between the end of the homepage content and the first post ran to
+   about 130px, built from four spacings that each look reasonable alone:
+   50px from the last games-container, 20px .post margin, 20px .post padding
+   and a 40px default h1 margin on the title.
+
+   Only the FIRST entry is touched, so the rhythm between posts further down
+   the list is unchanged. The games-container margin stays as the breathing
+   room after the logos.
+   ========================================================================== */
+.posts .post.on-list:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.posts .post.on-list:first-child .post-title {
+    margin-top: 12px !important;
+}
+
 .post:not(.on-list) {
     margin-top: 0 !important;
     padding-top: 0 !important;
