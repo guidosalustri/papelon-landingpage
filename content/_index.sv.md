@@ -113,9 +113,9 @@ cover: "images/social-card.png"
 </script>
 
 # ⌗ Välkommen till Papelon
->Hej! Vi är ett gäng <kbd class="kbd-yellow">speldesigners</kbd> från olika delar av världen som sitter på en liten kalkstensö mitt i <kbd class="kbd-red">Östersjön</kbd>. Tillsammans driver vi en liten <kbd class="kbd-blue">brädspelsstudio</kbd> som vill göra hobbyn mer <kbd class="kbd-pink">tillgänglig</kbd>, både för spelare och för designers.
+>Hej! Vi är ett gäng <kbd class="kbd-yellow">speldesigners</kbd> från olika delar av världen som samlats på en liten kalkstensö mitt i <kbd class="kbd-red">Östersjön</kbd>. Tillsammans driver vi en liten <kbd class="kbd-blue">brädspelsstudio</kbd> med målet att göra hobbyn mer <kbd class="kbd-pink">tillgänglig</kbd>, både för spelare och för designers.
 >
->Hjälp oss att ge liv åt våra <kbd class="kbd-purple">två första spel</kbd> på <kbd>Kickstarter</kbd>! Vill du veta mer om studion eller vad vi håller på att bygga, kolla in detaljerna här nedanför <kbd class="kbd-green">:D</kbd> 
+>Hjälp oss att sätta vind i seglen på våra <kbd class="kbd-purple">två första spel</kbd> på <kbd>Kickstarter</kbd>! Vill du veta mer om studion eller vad vi håller på att skapa, kolla in här nedanför <kbd class="kbd-green">:D</kbd> 
 
 <!-- Container for side-by-side game boxes -->
 <div class="games-container" style="display: flex; align-items: center; justify-content: center;">

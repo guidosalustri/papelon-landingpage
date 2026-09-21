@@ -22,7 +22,7 @@ cover: "images/cover-studio.jpg"
 
 <!-- coverCaption: "The first light theme by community member trviph" -->
 ### ⌗ Om oss
-Vi är en brädspelsstudio på <kbd class="kbd-green">3 personer</kbd> med bas i <kbd class="kbd-yellow">Visby</kbd> på Gotland, den historiska staden där vi själva lärde oss att göra spel. Vi älskar att samarbeta med designers och konstnärer, och framför allt vill vi att fler ska <kbd class="kbd-blue">spela</kbd> och <kbd class="kbd-red">skapa</kbd> spel. Det är därför vi tycker att <kbd class="kbd-pink">print-and-play</kbd> är så bra!
+Vi är en brädspelsstudio på <kbd class="kbd-green">3 personer</kbd> baserad i det historiska <kbd class="kbd-yellow">Visby</kbd> på Gotland, platsen där vi själva lärde oss att göra spel. Vi älskar att samarbeta med konstnärer och designers, och vi vill se fler <kbd class="kbd-blue">spela</kbd> och <kbd class="kbd-red">skapa</kbd> spel. Det är därför vi tycker att <kbd class="kbd-pink">print-and-play</kbd> är så bra!
 
 Följ med på en rundtur på <kbd>Gotland</kbd> på 2 minuter, så får du veta mer om studion och vart vi är på väg härnäst!
 
