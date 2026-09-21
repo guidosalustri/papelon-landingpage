@@ -31,7 +31,7 @@ Somos un estudio de juegos de mesa de <kbd class="kbd-green">3 personas</kbd> co
 
 <!--more-->
 
-### ⌗ El “tour”
+### ⌗ De paseo por Visby
 
 <!-- ROW 1: Framed Image Left | Plain Text Right -->
 <div class="games-container">
