@@ -3,7 +3,9 @@
 > [!TIP]
 > **Live at [papelonstudio.me](https://papelonstudio.me/)** — in English, Español and Svenska.
 
-<img src="static/images/social-card.png" alt="Papelon Studio" width="560">
+<p align="center">
+  <img src="static/images/social-card.png" alt="Papelon Studio" width="560">
+</p>
 
 Pre-launch site for an independent board game studio on Gotland. Its job is email
 signups ahead of a Kickstarter: form above the fold, game sections below, nothing
