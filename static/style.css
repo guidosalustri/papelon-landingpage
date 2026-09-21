@@ -442,8 +442,12 @@ kbd {
     }
 
     .game-separator {
-        transform: rotate(90deg) !important; /* Cascades down mobile display */
-        margin: 10px 0 !important;
+        /* Scale rather than shrink the font: the plus carries a layered
+           text-shadow whose offsets are fixed pixels, so reducing font-size
+           alone would leave the shadow proportionally heavier. A transform
+           scales glyph and shadow together, so it keeps its exact shape. */
+        transform: rotate(90deg) scale(0.75) !important;
+        margin: 4px 0 !important;
     }
 
     /* The signup form carries inline flex/max-width of 60%, which was tuned
