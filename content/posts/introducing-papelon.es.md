@@ -54,7 +54,7 @@ Somos un estudio de juegos de mesa de <kbd class="kbd-green">3 personas</kbd> co
 <div class="games-container">
   <div style="flex: 1;">
     <h2>El poder oculto del PnP</h2>
-    <p>El <kbd class="kbd-yellow">print-and-play</kbd> hace que los juegos sean <kbd class="kbd-yellow">económicos</kbd>, personales y <kbd class="kbd-yellow">accesibles</kbd>, al instante para quien sea. No solo juegas el juego: también pasas tiempo <kbd class="kbd-yellow">armándolo</kbd>. Es como IKEA: te queda el orgullo de decir «esto lo hice yo». <kbd class="kbd-yellow">¡Vamos arriba, PnP!</kbd></p>
+    <p>El <kbd class="kbd-yellow">print-and-play</kbd> hace que los juegos sean <kbd class="kbd-yellow">económicos</kbd>, personales y <kbd class="kbd-yellow">accesibles</kbd>, al instante para todos. No solo juegas el juego: también pasas tiempo <kbd class="kbd-yellow">armándolo</kbd>. Es como IKEA: te queda el orgullo de decir «esto lo hice yo». <kbd class="kbd-yellow">¡Vamos arriba, PnP!</kbd></p>
   </div>
   <div class="game-box game-yellow" style="flex: 0 0 55%; max-width: 55%;">
         <img src="/images/41.jpg" alt="La catedral de Visby, con sus dos torres negras asomando entre los árboles de otoño y gente caminando por un sendero" style="
